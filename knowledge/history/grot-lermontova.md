@@ -1,3 +1,20 @@
+---
+id: grot-lermontova
+title: "Грот Лермонтова / Академическая галерея"
+category: history
+subcategory: landmark
+status: needs_review
+partner_status: none
+address: null
+coords: null
+phone: null
+hours: null
+price: "бесплатно (открытая территория)"
+tags: [lermontov, history, mvp-7]
+photos: []
+updated: "2026-07"
+---
+
 # Грот Лермонтова
 
 **Категория:** история / музей (входит в список зафиксированных 7 музеев, `knowledge/README.md`, п.4, вместе с Академической галереей)

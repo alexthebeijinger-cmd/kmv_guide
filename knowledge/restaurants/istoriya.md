@@ -1,3 +1,20 @@
+---
+id: istoriya-cafe
+title: "Кафе «История»"
+category: restaurants
+subcategory: summer-cafe
+status: draft
+partner_status: none
+address: null
+coords: null
+phone: null
+hours: null
+price: null
+tags: [lermontov, summer-cafe]
+photos: ["photos/istoriya-night.jpeg"]
+updated: "2026-07"
+---
+
 # Кафе «История»
 
 **Категория:** летнее кафе/кофейня под открытым небом

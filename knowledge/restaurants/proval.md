@@ -1,3 +1,20 @@
+---
+id: proval-cafe
+title: "Кафе «Провал»"
+category: restaurants
+subcategory: cafe
+status: needs_review
+partner_status: none
+address: "бул. Гагарина, 30, Пятигорск"
+coords: null
+phone: null
+hours: "10:00–24:00"
+price: null
+tags: [cafe, terrace, proval]
+photos: ["photos/proval-sign.jpeg", "photos/proval-interior-1.jpeg", "photos/proval-interior-2.jpeg", "photos/proval-terrace.jpeg", "photos/proval-birdhouses.jpeg"]
+updated: "2026-07"
+---
+
 # Кафе «Провал»
 
 **Категория:** кафе/ресторан

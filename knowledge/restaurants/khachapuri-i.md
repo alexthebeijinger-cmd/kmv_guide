@@ -1,3 +1,20 @@
+---
+id: khachapuri-i
+title: "«Хачапури и…»"
+category: restaurants
+subcategory: street-food
+status: draft
+partner_status: none
+address: "бул. Гагарина, 31, Пятигорск"
+coords: null
+phone: null
+hours: null
+price: null
+tags: [georgian-food, street-food, budget]
+photos: ["photos/khachapuri-i-facade.jpg"]
+updated: "2026-07"
+---
+
 # «Хачапури и…»
 
 **Категория:** уличная еда / фастфуд (грузинская кухня)
