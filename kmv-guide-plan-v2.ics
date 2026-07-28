@@ -1,0 +1,595 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KMV Guide//Plan//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:КМВ Гид — план
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:MSK
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kmv-guide-day1@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260729T100000
+DTEND;TZID=Europe/Moscow:20260729T133000
+SUMMARY:КМВ Гид · День 1 · Рестораны/кафе — 4
+ –5 точек
+DESCRIPTION:Зона: центр\, у Цветника (рядом с у
+ же собранной кофейней Гукасова).\n\nПо к
+ аждой точке: фото фасада в портретной о
+ риентации\, желательно интерьер\, точны
+ й адрес (лучше сфотографировать вывеск
+ у).\nОбязательно отметить ТИП: ужин / коф
+ е / пиво / столовая / завтрак / десерт — б
+ ез этого не построить фильтр по типу ед
+ ы.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 1 · Рестораны/кафе 
+ — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code1@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260729T140000
+DTEND;TZID=Europe/Moscow:20260729T180000
+SUMMARY:КМВ Гид · Кодинг · Qdrant: отдельная ко
+ ллекция под турконтент
+DESCRIPTION:Неделя 1 — бэкенд/RAG.\n\nСоздать от
+ дельную Qdrant-коллекцию под туристическ
+ ий контент. Медицинскую базу «Курортна
+ я медицина» НЕ смешивать с турконтенто
+ м в одном индексе — это зафиксированно
+ е архитектурное решение.\n\nРешить попу
+ тно: self-hosted или Qdrant Cloud (открытый вопрос 
+ №2 в PLAN.md). Сейчас коллекция пустая — ми
+ грация ничего не стоит\, позже будет до
+ роже.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · Qdrant: отдельная 
+ коллекция под турконтент
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day2@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260730T100000
+DTEND;TZID=Europe/Moscow:20260730T133000
+SUMMARY:КМВ Гид · День 2 · Рестораны/кафе — 4
+ –5 точек
+DESCRIPTION:Зона: пр. Кирова / ул. Октябрьская.
+ \n\nФото фасада (портрет) + интерьер + адр
+ ес. Отметить тип еды.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 2 · Рестораны/кафе 
+ — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code2@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260730T140000
+DTEND;TZID=Europe/Moscow:20260730T180000
+SUMMARY:КМВ Гид · Кодинг · скрипт загрузки k
+ nowledge/**/*.md
+DESCRIPTION:Парсер фронтматтера по knowledge/SCHEMA.
+ md (он уже готов) + эмбеддинг тела файла.\n
+ \nДля «коллекционных» файлов (транспор
+ т\, бюветы\, терренкуры) на MVP грузить це
+ ликом одним чанком — не городить парсе
+ р таблиц раньше времени.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · скрипт загрузк
+ и knowledge/**/*.md
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day3@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260731T100000
+DTEND;TZID=Europe/Moscow:20260731T133000
+SUMMARY:КМВ Гид · День 3 · Рестораны/кафе — 4
+ –5 точек
+DESCRIPTION:Зона: бул. Гагарина\, район Провал
+ а.\n\nФото фасада (портрет) + интерьер + ад
+ рес. Отметить тип еды.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 3 · Рестораны/кафе 
+ — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code3@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260731T140000
+DTEND;TZID=Europe/Moscow:20260731T180000
+SUMMARY:КМВ Гид · Кодинг · залить готовый к
+ онтент в базу
+DESCRIPTION:Прогнать через загрузчик всё\, чт
+ о уже собрано: knowledge/history (7 файлов)\, knowledg
+ e/transport (3)\, knowledge/nature (2)\, knowledge/restaurants (4)\, kn
+ owledge/services (1).\n\nПроверить\, что фронтматт
+ ер везде читается без ошибок — это зао
+ дно валидация схемы.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · залить готовый
+  контент в базу
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day4@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260801T100000
+DTEND;TZID=Europe/Moscow:20260801T133000
+SUMMARY:КМВ Гид · День 4 · Рестораны/кафе\, б
+ юджетный сегмент — 4–5 точек
+DESCRIPTION:Зона: Верхний рынок / привокзальн
+ ый район.\n\nЗдесь особенно важны столов
+ ые и быстрая еда — это отдельный тип по
+ требности в гиде.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 4 · Рестораны/кафе\,
+  бюджетный сегмент — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code4@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260801T140000
+DTEND;TZID=Europe/Moscow:20260801T180000
+SUMMARY:КМВ Гид · Кодинг · тест RAG через роу
+ тинг LLM
+DESCRIPTION:Несколько живых вопросов через De
+ epSeek→Gemini→Claude на уже загруженном конте
+ нте. Ждать 30 ресторанов не нужно — для 
+ теста хватает истории и транспорта.\n\nС
+ разу заложить лог эскалаций (как часто 
+ уходим с DeepSeek на Gemini/Claude)\, чтобы не полу
+ чить сюрприз в счёте.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · тест RAG через р
+ оутинг LLM
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day5@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260802T100000
+DTEND;TZID=Europe/Moscow:20260802T133000
+SUMMARY:КМВ Гид · День 5 · Буфер — звонки па
+ ртнёрам
+DESCRIPTION:Не сбор\, а переговоры: «Тысяча и 
+ одна ночь»\, «Печорин»\, «Кино-Вершина»\
+ , турфирма «Машук».\n\nЦель звонка: стату
+ с готовности участвовать в пилоте + кон
+ такт для уведомлений о бронированиях (
+ по умолчанию Telegram\, звонок — fallback при о
+ тсутствии ответа за 30–60 минут).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 5 · Буфер — звонки 
+ партнёрам
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code5@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260802T140000
+DTEND;TZID=Europe/Moscow:20260802T180000
+SUMMARY:КМВ Гид · Кодинг · закрыть неделю 1
+DESCRIPTION:RAG должен отвечать на живые вопро
+ сы по собранному контенту. Если это раб
+ отает — фундамент готов\, дальше тольк
+ о интерфейсы.\n\nЕсли не работает — не и
+ дти дальше\, доделать: всё остальное ст
+ роится поверх.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · закрыть неделю
+  1
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day6@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260803T100000
+DTEND;TZID=Europe/Moscow:20260803T133000
+SUMMARY:КМВ Гид · День 6 · Рестораны/кафе — 4
+ –5 точек
+DESCRIPTION:Зона: Белая Ромашка / Бештаугорск
+ ий район — другой профиль аудитории\, н
+ е туристический центр.\n\nФото + адрес + т
+ ип еды.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 6 · Рестораны/кафе 
+ — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code6@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260803T140000
+DTEND;TZID=Europe/Moscow:20260803T180000
+SUMMARY:КМВ Гид · Кодинг · Telegram-бот\, скелет
+DESCRIPTION:Подключение бота\, /start\, свободны
+ й вопрос → RAG → ответ. Пока без персона
+ лизации — просто рабочая труба от вопр
+ оса до ответа.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · Telegram-бот\, скел
+ ет
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day7@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260804T100000
+DTEND;TZID=Europe/Moscow:20260804T133000
+SUMMARY:КМВ Гид · День 7 · Рестораны/кафе\, д
+ обор до 30+ — 4–6 точек
+DESCRIPTION:Зона: оставшиеся зоны центра.\n\nЭ
+ то последний плановый день по ресторан
+ ам — после него категория должна выйти
+  на минимум 30 заведений.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 7 · Рестораны/кафе\,
+  добор до 30+ — 4–6 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code7@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260804T140000
+DTEND;TZID=Europe/Moscow:20260804T180000
+SUMMARY:КМВ Гид · Кодинг · выбор типа поезд
+ ки
+DESCRIPTION:Первый экран диалога: санаторный
+  / выходного дня / транзитник. Это ключе
+ вая персонализация\, ради которой весь 
+ проект — не откладывать в конец.\n\nСцен
+ арии старта заменяют анкету онбординг
+ а (решение по Impeccable): человек не заполня
+ ет опрос\, а сразу тыкает в живой сценар
+ ий.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · выбор типа пое
+ здки
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day8@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260805T100000
+DTEND;TZID=Europe/Moscow:20260805T133000
+SUMMARY:КМВ Гид · День 8 · Тропы и точки прир
+ оды №1 — 4–5 точек
+DESCRIPTION:Зона: нижний терренкур Машука — 
+ видовые площадки\, малые гроты\, скамей
+ ки-памятники.\n\nЗдесь фото важнее адрес
+ а: точного адреса у точки на тропе нет\, 
+ нужна привязка к маршруту (какой терре
+ нкур\, примерно на каком участке).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 8 · Тропы и точки пр
+ ироды №1 — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code8@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260805T140000
+DTEND;TZID=Europe/Moscow:20260805T180000
+SUMMARY:КМВ Гид · Кодинг · уточняющий шаг п
+ о типу еды
+DESCRIPTION:Реализовать решение от 28.07: по ед
+ е гид не подставляет одно заведение\, а 
+ сначала спрашивает тип потребности (по
+ ужинать / кофе / пиво / столовая / завтра
+ к / десерт) и только потом даёт список.\n\
+ nПартнёрская карточка может быть подсв
+ ечена внутри списка\, но не заменяет сп
+ исок.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · уточняющий шаг
+  по типу еды
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day9@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260806T100000
+DTEND;TZID=Europe/Moscow:20260806T133000
+SUMMARY:КМВ Гид · День 9 · Тропы и точки прир
+ оды №2 — 4–5 точек
+DESCRIPTION:Зона: верхний терренкур + вершина
+  Машука.\n\nПривязка к маршруту вместо а
+ дреса.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 9 · Тропы и точки пр
+ ироды №2 — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code9@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260806T140000
+DTEND;TZID=Europe/Moscow:20260806T180000
+SUMMARY:КМВ Гид · Кодинг · заявка на бронир
+ ование в чате
+DESCRIPTION:Форма заявки прямо в ленте чата\, 
+ со статусом на месте (решение по Impeccable) 
+ — не отдельный экран\, не личный кабине
+ т.\n\nОплата только на месте\, постфактум
+ . Никакой предоплаты через бота.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · заявка на брон
+ ирование в чате
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day10@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260807T100000
+DTEND;TZID=Europe/Moscow:20260807T133000
+SUMMARY:КМВ Гид · День 10 · Тропы и точки при
+ роды №3 — 4–5 точек
+DESCRIPTION:Зона: окрестности — Бештау / Юца\,
+  если по пути.\n\nПосле этого дня категор
+ ия троп должна закрыться (цель 10–15 точ
+ ек).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 10 · Тропы и точки п
+ рироды №3 — 4–5 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code10@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260807T140000
+DTEND;TZID=Europe/Moscow:20260807T180000
+SUMMARY:КМВ Гид · Кодинг · уведомление парт
+ нёру
+DESCRIPTION:Заявка → уведомление партнёру в 
+ Telegram → партнёр вручную подтверждает и
+ ли отклоняет → статус возвращается в ч
+ ат пользователю.\n\nЗвонок — fallback\, если 
+ партнёр не ответил за 30–60 минут (SLA).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · уведомление па
+ ртнёру
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day11@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260808T100000
+DTEND;TZID=Europe/Moscow:20260808T133000
+SUMMARY:КМВ Гид · День 11 · Дегустации — 3–4 
+ точки
+DESCRIPTION:Винотеки и дегустационные залы (
+ вино\, коньяк) — в Пятигорске или ближа
+ йших городах КМВ.\n\nВажно: часы работы и
+  нужна ли предварительная запись — это
+  ключевая практическая информация для 
+ туриста\, её лучше уточнить на месте.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 11 · Дегустации — 3
+ –4 точки
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code11@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260808T140000
+DTEND;TZID=Europe/Moscow:20260808T180000
+SUMMARY:КМВ Гид · Кодинг · тест бронировани
+ я на «1908»
+DESCRIPTION:Кофейня «1908» — единственный под
+ тверждённый партнёр с готовым контент
+ ом\, на ней и проверяем всю цепочку заяв
+ ки от начала до конца.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · тест бронирова
+ ния на «1908»
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day12@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260809T100000
+DTEND;TZID=Europe/Moscow:20260809T133000
+SUMMARY:КМВ Гид · День 12 · Буфер — перегово
+ ры с партнёрами
+DESCRIPTION:Продолжение звонков\, если пятни
+ ца и суббота не закрыли вопрос.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 12 · Буфер — перего
+ воры с партнёрами
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code12@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260809T140000
+DTEND;TZID=Europe/Moscow:20260809T180000
+SUMMARY:КМВ Гид · Кодинг · веб: чат-гид осно
+ вным экраном
+DESCRIPTION:Тот же бэкенд\, что и у бота. Чат-г
+ ид — главный экран сайта\, не витрина: п
+ родукт это ответ на сегодня\, а не стать
+ я.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · веб: чат-гид ос
+ новным экраном
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day13@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260810T100000
+DTEND;TZID=Europe/Moscow:20260810T133000
+SUMMARY:КМВ Гид · День 13 · Автосервисы\, шин
+ омонтаж\, автомойки — 5–8 точек
+DESCRIPTION:Зона: промзона и окраины — они об
+ ычно кучкуются на одной-двух улицах\, з
+ а одну поездку берётся вся категория.\n\
+ nФото вывески + адрес + часы работы (у ни
+ х часто нерегулярные).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 13 · Автосервисы\, ш
+ иномонтаж\, автомойки — 5–8 точек
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code13@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260810T140000
+DTEND;TZID=Europe/Moscow:20260810T180000
+SUMMARY:КМВ Гид · Кодинг · веб: витрина мест
+  и маршрутов
+DESCRIPTION:Витрина генерируется из той же б
+ азы\, что и бот — не дублировать контен
+ т вручную. Нужна в основном под SEO и пок
+ аз партнёров.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · веб: витрина ме
+ ст и маршрутов
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day14@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260811T100000
+DTEND;TZID=Europe/Moscow:20260811T133000
+SUMMARY:КМВ Гид · День 14 · Добор + категория 
+ «Услуги»
+DESCRIPTION:Что осталось по категориям выше\,
+  плюс попутно: аптеки (круглосуточные о
+ тмечать отдельно)\, банкоматы и обмен в
+ алюты\, салоны связи (SIM-карты для иност
+ ранцев)\, прачечные\, парикмахерские.\n\n
+ Порог по количеству здесь не задан — с
+ обирать всё полезное\, что попадается.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 14 · Добор + категор
+ ия «Услуги»
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code14@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260811T140000
+DTEND;TZID=Europe/Moscow:20260811T180000
+SUMMARY:КМВ Гид · Кодинг · двуязычность RU / 
+ 简体
+DESCRIPTION:Интерфейс на двух языках с перво
+ го экрана. Английский сознательно не д
+ елаем.\n\nКонтент переводить не весь сра
+ зу — решить\, какое подмножество идёт п
+ ервым (открытый вопрос №1 в PLAN.md: все то
+ чки или партнёры + топ-7 музеев).
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · двуязычность RU
+  / 简体
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-day15@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260812T100000
+DTEND;TZID=Europe/Moscow:20260812T133000
+SUMMARY:КМВ Гид · День 15 · Резерв
+DESCRIPTION:Пересъёмка нечётких фото\, уточн
+ ение адресов\, точки\, которые не успели
+ .\n\nПосле этого дня офлайн-сбор по плану
+  закрыт — дальше контент пополняется п
+ о мере обнаружения\, без выделенных дне
+ й.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · День 15 · Резерв
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kmv-guide-code15@kmvguide
+DTSTAMP:20260728T110000Z
+DTSTART;TZID=Europe/Moscow:20260812T140000
+DTEND;TZID=Europe/Moscow:20260812T180000
+SUMMARY:КМВ Гид · Кодинг · спайк по речевым 
+ API
+DESCRIPTION:Голосовой переводчик — самая до
+ рогая и неопределённая статья. До инте
+ грации проверить реальную цену и задер
+ жку STT + перевод + TTS.\n\nПодписка 3900 ₽ за 30
+  дней с лимитом ~300–400 минут должна сход
+ иться по экономике — если нет\, лучше у
+ знать это сейчас\, а не на пятой неделе.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:КМВ Гид · Кодинг · спайк по речев
+ ым API
+END:VALARM
+END:VEVENT
+END:VCALENDAR
