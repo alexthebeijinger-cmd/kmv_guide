@@ -11,6 +11,7 @@ phone: null
 hours: "07:30–20:00, без перерыва и выходных"
 price: null
 tags: [desert, morozhenoe, kofe, zavtrak, kafe, semeynoe, s-detmi, letnyaya-terrasa, mestnyy-brend, suvenir, vysokiy-reyting]
+food_types: [десерт, кофе]  # со слов Alex, 29.07.2026: мороженое, прохладительные напитки, кофе (в т.ч. фильтр-кофе)
 photos: [photos/pyatigorskoe-morozhenoe-vyveska.jpeg, photos/pyatigorskoe-morozhenoe-terrasa.jpeg, photos/pyatigorskoe-morozhenoe-zal.jpeg, photos/pyatigorskoe-morozhenoe-rezhim.jpeg]
 updated: "2026-07"
 ---

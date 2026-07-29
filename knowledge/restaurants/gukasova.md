@@ -11,7 +11,7 @@ phone: "+7 961 446-22-38"
 hours: "ежедневно 10:00–21:00"
 price: "~800 ₽ (средний чек)"
 tags: [coffee, history, architecture]
-food_types: [завтрак, кофе]
+food_types: [завтрак, кофе, десерт, обед]  # со слов Alex, 29.07.2026: кофе, можно заказать еду, сэндвичи, десерты
 photos: ["photos/gukasova-facade.jpeg", "photos/gukasova-interior.jpeg"]
 updated: "2026-07"
 ---

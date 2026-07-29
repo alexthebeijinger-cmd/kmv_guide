@@ -11,7 +11,7 @@ phone: "+7 (938) 300-06-12"
 hours: "круглосуточно, без перерыва и выходных"
 price: null
 tags: [stolovaya, bystro-i-deshevo, obed, zavtrak, uzhin, kruglosutochno, na-mashine, parkovka, za-gorodom, budget]
-food_types: [комплексный обед]
+food_types: [завтрак, обед, комплексный обед, ужин]  # со слов Alex, 29.07.2026: полноценная еда — завтрак, обед и ужин, салаты и супы на выбор, мясные блюда, выбор очень большой
 booking: false
 photos: [photos/sfera-vkusa-fasad.jpeg, photos/sfera-vkusa-zal.jpeg, photos/sfera-vkusa-linia.jpeg, photos/sfera-vkusa-rezhim.jpeg]
 updated: "2026-07"

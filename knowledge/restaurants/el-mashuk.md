@@ -11,6 +11,7 @@ phone: "+7 (963) 381-26-45"
 hours: "до 19:00 (по Яндекс.Картам, июль 2026; сезонность не проверена)"
 price: "средний чек 500–2500 ₽ (ориентир Яндекс.Карт, июль 2026)"
 tags: [restorany, kafe, uzhin, obed, shashlyk, kavkazskaya-kuhnya, mangal, vidovoe-mesto, mashuk, beshtau, panorama, terrasa, na-mashine, s-detmi, s-zhivotnymi, wi-fi, s-soboy, bronirovanie, vysokiy-reyting, zakat]
+food_types: [пиво, обед, ужин]  # со слов Alex, 29.07.2026: по сути ресторанчик на улице — пиво, прохладительные напитки, готовят еду, кавказская кухня
 photos: [photos/el-vhod.jpeg, photos/el-terrasa.jpeg, photos/el-vid-beshtau.jpeg, photos/el-menu-oblozhka.jpeg, photos/el-shtender.jpeg]
 updated: "2026-07"
 ---
