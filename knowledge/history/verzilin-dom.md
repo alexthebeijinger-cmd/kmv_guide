@@ -5,13 +5,13 @@ category: history
 subcategory: museum
 status: ready
 partner_status: none
-address: null
+address: "ул. Карла Маркса, 13, Пятигорск"
 coords: null
 phone: null
 hours: "ср–вс 10:00–18:00 (общий график музея-заповедника, см. lermontov-domik); выходные — пн и вт"
-price: "400/600 ₽ (единый билет на весь музей-заповедник, без/с экскурсоводом)"
+price: "400/600 ₽ (единый билет на весь музей-заповедник, без/с экскурсоводом); полная сетка льгот и категорий — см. таблицу в lermontov-domik.md"
 tags: [lermontov, museum, history, mvp-7]
-photos: []
+photos: [photos/verzilin-dom-fasad-karla-marksa-13.jpeg]
 updated: "2026-07"
 ---
 
@@ -32,6 +32,8 @@ updated: "2026-07"
 
 Дом Верзилиных — часть музея-заповедника М.Ю. Лермонтова (объединён с Домиком Лермонтова, см. отдельную статью). В доме воссоздана обстановка салона того времени, экспозиция литературного отдела рассказывает об обстоятельствах конфликта и дуэли, включает прижизненные издания, портреты поэта и современников.
 
+**Адрес подтверждён фото с места (Alex, 28.07.2026):** здание стоит на углу ул. Карла Маркса, 13 — на фасаде барельеф-портрет Лермонтова и адресная табличка «улица имени Карла Маркса, 13». На карте комплекса это здание №1 («Дом генерала П.С. Верзилина, литературный отдел»).
+
 ## Режим работы и цены (сверено, июль 2026)
 
 Дом Верзилиных входит в единый музей-заповедник М.Ю. Лермонтова вместе с Домиком Лермонтова — общий режим работы и билеты, см. `lermontov-domik.md`: среда–воскресенье, 10:00–18:00 (выходные — понедельник и вторник); единый билет на весь комплекс — 400 ₽ взрослый (без экскурсовода) / 600 ₽ (с экскурсоводом).
@@ -41,4 +43,8 @@ updated: "2026-07"
 - Логичное продолжение рассказа о Домике Лермонтова — сюжетно это «место, откуда начался путь к дуэли».
 - Хорошая точка для исторического маршрута «последние дни Лермонтова в Пятигорске»: Домик Лермонтова → Дом Верзилиных → место дуэли → грот Лермонтова → некрополь (первое место захоронения).
 
-Источники: [express-novosti.ru](https://express-novosti.ru/interesting/travel/2147525761-dom-generala-verzilina-v-pyatigorske-gde-prozvuchal-vyizov-na-rokovuyu-duel.html), [putevka.com](https://www.putevka.com/kavminvody/pyatigorsk/sight/gosudarstvennyj-muzej-zapovednik-m.yu.-lermontova)
+Источники:
+
+- **Фото с места:** фасад здания с барельефом-портретом Лермонтова и адресной табличкой «Карла Маркса, 13» (Alex, 28.07.2026).
+- **Интернет:** [express-novosti.ru](https://express-novosti.ru/interesting/travel/2147525761-dom-generala-verzilina-v-pyatigorske-gde-prozvuchal-vyizov-na-rokovuyu-duel.html), [putevka.com](https://www.putevka.com/kavminvody/pyatigorsk/sight/gosudarstvennyj-muzej-zapovednik-m.yu.-lermontova), [komandirovka.ru](https://www.komandirovka.ru/sights/pyatigorsk/dom-verzilinyih/) (подтверждение адреса: ул. Карла Маркса, д. 13).
+- **Google Drive:** отрицательный результат, проверено 29.07.2026 (см. `lermontov-domik.md`) — тот же поиск покрывает оба объекта комплекса.
