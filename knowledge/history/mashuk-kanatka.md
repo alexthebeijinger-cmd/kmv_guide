@@ -5,7 +5,7 @@ category: history
 subcategory: landmark
 status: needs_review
 partner_status: none
-address: null
+address: "бульвар Гагарина, 2, Пятигорск (нижняя станция)"   # из открытых источников (2ГИС, КП), на месте не сверено
 coords: null
 phone: null
 hours: "ежедневно 09:00–18:00 (касса закрывается за 30 мин до конца работы)"

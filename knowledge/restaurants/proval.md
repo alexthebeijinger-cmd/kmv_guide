@@ -11,6 +11,7 @@ phone: null
 hours: "10:00–24:00"
 price: null
 tags: [cafe, terrace, proval]
+food_types: [ужин]
 photos: ["photos/proval-sign.jpeg", "photos/proval-interior-1.jpeg", "photos/proval-interior-2.jpeg", "photos/proval-terrace.jpeg", "photos/proval-birdhouses.jpeg"]
 updated: "2026-07"
 ---

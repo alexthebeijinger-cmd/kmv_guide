@@ -5,7 +5,7 @@ category: history
 subcategory: cemetery
 status: needs_review
 partner_status: none
-address: null
+address: "ул. Пастухова, 1, Пятигорск"   # из открытых источников (tonkosti.ru, Яндекс.Карты), на месте не сверено
 coords: null
 phone: null
 hours: null

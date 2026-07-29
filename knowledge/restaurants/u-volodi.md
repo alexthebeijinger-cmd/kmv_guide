@@ -11,6 +11,8 @@ phone: "+7 (962) 402-74-98"
 hours: "по Яндекс.Картам — круглосуточно; по 2ГИС — ежедневно 10:00–24:00. Расхождение не снято, см. открытые вопросы"
 price: "от 170 ₽ за позицию, основные блюда 170–540 ₽ (ориентир Яндекс.Карт, июль 2026)"
 tags: [restorany, shashlychnaya, uzhin, obed, shashlyk, lyulya, hachapuri, mangal, kavkazskaya-kuhnya, samoobsluzhivanie, nedorogo, dostavka, s-soboy, letnyaya-terrasa, wi-fi, s-detmi, detskaya-komnata, mestnye-hodyat, belaya-romashka, lermontovskiy-razezd, kruglosutochno]
+food_types: [шашлык, ужин]
+booking: false        # самообслуживание, столики не бронируют
 photos: [photos/u-volodi-vyveska.jpeg, photos/u-volodi-mangal.jpeg, photos/u-volodi-terrasa.jpeg]
 updated: "2026-07"
 ---

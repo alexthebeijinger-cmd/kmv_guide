@@ -11,6 +11,8 @@ phone: "+7 (961) 482-00-11"
 hours: "10:00–23:00, без перерыва и выходных"
 price: "от 317 ₽ (Яндекс.Карты, минимальная позиция); хачапури 220–680 ₽, осетинские пироги 650–850 ₽ (900 г), хычины 250–350 ₽, супы 240 ₽, салаты 250–300 ₽, напитки 90–450 ₽ (по меню на фасаде, июль 2026)"
 tags: [georgian-food, khachapuri, khinkali, street-food, cafe, budget, s-detmi, dostavka, otkrytaya-kukhnya, tsentr]
+food_types: [хинкали, ужин, десерт]
+booking: false
 photos: [photos/khachapuri-i-km-zal.jpeg, photos/khachapuri-i-km-menyu.jpeg, photos/khachapuri-i-km-vyveska.jpeg]
 updated: "2026-07"
 ---

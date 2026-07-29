@@ -5,7 +5,7 @@ category: history
 subcategory: landmark
 status: needs_review
 partner_status: none
-address: null
+address: "пр. Кирова, 1а, Пятигорск (Академическая галерея)"   # из открытых источников (Википедия, 2ГИС), на месте не сверено
 coords: null
 phone: null
 hours: null

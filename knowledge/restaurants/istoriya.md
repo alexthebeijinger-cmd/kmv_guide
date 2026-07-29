@@ -11,6 +11,7 @@ phone: null
 hours: null
 price: null
 tags: [lermontov, summer-cafe]
+food_types: [кофе, десерт]
 photos: ["photos/istoriya-night.jpeg"]
 updated: "2026-07"
 ---
