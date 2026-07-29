@@ -3,7 +3,7 @@ id: azs-lukoil-ermolova-46
 title: "АЗС «Лукойл» — ул. Ермолова, 46"
 category: auto
 subcategory: azs
-status: needs_review
+status: ready
 partner_status: none
 address: "ул. Ермолова, 46, Пятигорск"
 coords: null
