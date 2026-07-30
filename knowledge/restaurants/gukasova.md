@@ -6,7 +6,7 @@ subcategory: cafe
 status: ready
 partner_status: candidate
 address: "пр. Кирова, 23, 1 этаж, Пятигорск, 357501"
-coords: null
+coords: [44.0366143, 43.0803228]
 phone: "+7 961 446-22-38"
 hours: "ежедневно 10:00–21:00"
 price: "~800 ₽ (средний чек)"

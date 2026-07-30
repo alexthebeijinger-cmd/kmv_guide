@@ -6,7 +6,7 @@ subcategory: landmark
 status: ready
 partner_status: none
 address: "бульвар Гагарина, рядом с д. 23, Пятигорск"   # из открытых источников (Культура.РФ, 101hotels), на месте не сверено
-coords: null
+coords: [44.042232, 43.0970803]
 phone: null
 hours: "09:00–20:00, выходной — понедельник"
 price: "бесплатно (вход); экскурсии от 300 ₽"

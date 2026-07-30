@@ -6,7 +6,7 @@ subcategory: outside-kmv
 status: draft
 partner_status: none
 address: "плато Бермамыт, Карачаево-Черкесия (выезд из Пятигорска, через гору Баран)"
-coords: null
+coords: [43.595978, 42.496066]
 phone: null
 hours: "06:30–15:00 (утренний/рассветный формат)"
 price: "от 4200 ₽ + ~200 ₽ доп. расходов"

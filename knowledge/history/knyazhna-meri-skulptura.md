@@ -6,7 +6,7 @@ subcategory: literary-sculpture
 status: draft
 partner_status: none
 address: "Емануелевский парк, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.040553, 43.085124]
 phone: null
 hours: null
 price: "бесплатно"

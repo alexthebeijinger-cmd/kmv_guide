@@ -6,7 +6,7 @@ subcategory: mountain
 status: draft
 partner_status: none
 address: "микрорайон Горапост, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.042199, 43.052029]
 phone: null
 hours: null
 price: "бесплатно"

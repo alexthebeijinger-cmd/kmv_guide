@@ -6,7 +6,7 @@ subcategory: orthodox-church
 status: draft
 partner_status: none
 address: "Пятигорск, микрорайон Центр, Ставропольский край (точный номер дома не зафиксирован)"
-coords: null
+coords: [44.028513, 43.062098]
 phone: "+7 (918) 784-36-20"
 hours: null
 price: "бесплатно"

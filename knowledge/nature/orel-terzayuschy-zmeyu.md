@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "Горячая гора, Пятигорск, Ставропольский край (точный адрес уточняется)"
-coords: null
+coords: [44.036698, 43.083104]
 phone: null
 hours: "круглосуточно (по Яндекс.Картам)"
 price: null

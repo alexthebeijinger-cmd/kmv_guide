@@ -6,7 +6,7 @@ subcategory: outside-kmv
 status: draft
 partner_status: none
 address: "Черекское ущелье, Кабардино-Балкария (выезд из Пятигорска)"
-coords: null
+coords: [43.2280822, 43.5625022]
 phone: null
 hours: "~12 часов"
 price: "от 3200 ₽ (эко-сбор 300 ₽ отдельно)"

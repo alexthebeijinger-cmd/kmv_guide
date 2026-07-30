@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "Иноземцевское ш., 7, Пятигорск"
-coords: null
+coords: [44.063825, 43.070835]
 phone: null
 hours: "с 8:00"
 price: "посещение 150 ₽"

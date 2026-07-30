@@ -6,7 +6,7 @@ subcategory: monument
 status: draft
 partner_status: none
 address: "сквер имени В.И. Ленина, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.040182, 43.075486]
 phone: null
 hours: "круглосуточно"
 price: "бесплатно"

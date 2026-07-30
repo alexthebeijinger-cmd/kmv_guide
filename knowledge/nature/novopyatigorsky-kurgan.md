@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "Пятигорск, микрорайон Новопятигорск, Ставропольский край"
-coords: null
+coords: [44.0437, 43.014727]
 phone: null
 hours: null
 price: "бесплатно"

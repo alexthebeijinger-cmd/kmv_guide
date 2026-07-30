@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "склон горы Машук, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.059406, 43.07691]
 phone: null
 hours: null
 price: "бесплатно"

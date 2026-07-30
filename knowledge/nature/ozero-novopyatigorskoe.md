@@ -6,7 +6,7 @@ subcategory: lake
 status: draft
 partner_status: none
 address: "Пятигорск, микрорайон Новопятигорск, Ставропольский край"
-coords: null
+coords: [44.033211, 43.006018]
 phone: null
 hours: "круглосуточно (сам водоём); пляжи — см. ниже"
 price: "бесплатно (берег); пляжи — уточняется"

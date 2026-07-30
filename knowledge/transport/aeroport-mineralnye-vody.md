@@ -6,7 +6,7 @@ subcategory: hub
 status: draft
 partner_status: none
 address: "Ставропольский край, Минераловодский муниципальный округ, аэропорт Минеральные Воды имени М.Ю. Лермонтова, 5"
-coords: null
+coords: [44.2169378, 43.0868767]
 phone: "+7 (87922) 3-31-38 (розыск багажа)"
 hours: "круглосуточно"
 price: null

@@ -6,7 +6,7 @@ subcategory: wine-cognac
 status: draft
 partner_status: none
 address: "флагманская точка: ул. Карла Маркса, 1, Пятигорск; сеть из нескольких точек по городу (см. таблицу)"
-coords: null
+coords: [44.03736, 43.0790615]
 phone: null
 hours: "до 21:00 (флагманская точка, по Яндекс.Картам)"
 price: null

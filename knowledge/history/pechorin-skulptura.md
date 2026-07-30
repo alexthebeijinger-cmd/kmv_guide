@@ -6,7 +6,7 @@ subcategory: literary-sculpture
 status: draft
 partner_status: none
 address: "гора Машук, парк, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.040747, 43.084858]
 phone: null
 hours: null
 price: "бесплатно"

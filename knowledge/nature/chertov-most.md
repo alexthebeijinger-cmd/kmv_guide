@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "Емануелевский парк, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.040188, 43.083884]
 phone: null
 hours: null
 price: "бесплатно"

@@ -6,7 +6,7 @@ subcategory: bowling
 status: draft
 partner_status: none
 address: "ул. Панагюриште, 2, ТЦ «Университи Молл», цокольный этаж, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0540515, 43.0638833]
 phone: "+7 (928) 652-11-58"
 hours: "до 00:00"
 price: "1500–1700 ₽/час, 2 дорожки"

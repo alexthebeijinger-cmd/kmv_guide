@@ -6,7 +6,7 @@ subcategory: wild-baths
 status: draft
 partner_status: none
 address: "склон горы, Пятигорск, Ставропольский край (район Провальского курортного парка)"
-coords: null
+coords: [44.0402, 43.09351]
 phone: null
 hours: "круглосуточно (открытый природный объект)"
 price: "бесплатно"

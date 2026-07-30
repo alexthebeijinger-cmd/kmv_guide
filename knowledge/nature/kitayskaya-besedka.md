@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "Нагорный парк, гора Машук, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.035533, 43.083178]
 phone: null
 hours: null
 price: "бесплатно"

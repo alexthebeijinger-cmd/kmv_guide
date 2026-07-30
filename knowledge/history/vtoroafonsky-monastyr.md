@@ -6,7 +6,7 @@ subcategory: religion
 status: draft
 partner_status: none
 address: "гора Бештау (склон), городской округ Лермонтов, Ставропольский край; церковная лавка/подворье — просп. 40 лет Октября, 12 ст1, Пятигорск"
-coords: null
+coords: [44.0519063, 43.0622192]
 phone: null
 hours: "до 18:00 (по Яндекс.Картам)"
 price: null

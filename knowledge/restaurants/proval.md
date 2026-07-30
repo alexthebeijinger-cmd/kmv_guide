@@ -6,7 +6,7 @@ subcategory: cafe
 status: needs_review
 partner_status: none
 address: "бул. Гагарина, 30, Пятигорск"
-coords: null
+coords: [44.0432669, 43.0970155]
 phone: null
 hours: "10:00–24:00"
 price: null

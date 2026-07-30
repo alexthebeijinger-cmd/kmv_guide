@@ -6,7 +6,7 @@ subcategory: outside-kmv
 status: draft
 partner_status: none
 address: "Архыз, Карачаево-Черкесия (выезд из Пятигорска)"
-coords: null
+coords: [43.5630635, 41.2803847]
 phone: null
 hours: "выезд 06:30, возвращение ~20:00 (полный день)"
 price: "от 3200 ₽ + ~500 ₽ доп. расходов"

@@ -6,7 +6,7 @@ subcategory: wild-baths
 status: draft
 partner_status: none
 address: "Пятигорск, Нагорный парк, Ставропольский край"
-coords: null
+coords: [44.040565, 43.081683]
 phone: null
 hours: "круглосуточно (открытый природный объект)"
 price: "бесплатно"

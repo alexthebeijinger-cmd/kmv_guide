@@ -6,7 +6,7 @@ subcategory: dental
 status: ready
 partner_status: none
 address: "ул. Теплосерная, 102, 1 этаж, Пятигорск, 357501"
-coords: null
+coords: [44.0353604, 43.0902463]
 phone: "8 (8793) 31-35-11"
 hours: "ежедневно 09:00–19:00, перерыв 13:30–14:00"
 price: null

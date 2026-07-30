@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "гора Машук, памятник природы, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.056515, 43.093599]
 phone: null
 hours: null
 price: null

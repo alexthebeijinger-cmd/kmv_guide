@@ -6,7 +6,7 @@ subcategory: mountain
 status: draft
 partner_status: none
 address: "гора Малый Бештау, городской округ Лермонтов, Ставропольский край"
-coords: null
+coords: [44.102295, 43.019847]
 phone: null
 hours: null
 price: null

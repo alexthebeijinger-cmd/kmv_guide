@@ -6,7 +6,7 @@ subcategory: monument
 status: draft
 partner_status: none
 address: "Лермонтовский сквер, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.037523, 43.077053]
 phone: null
 hours: null
 price: "бесплатно"

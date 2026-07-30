@@ -6,7 +6,7 @@ subcategory: tennis
 status: draft
 partner_status: none
 address: "Оранжерейная ул., 22/4, этаж цокольный, Пятигорск"
-coords: null
+coords: [44.0343557, 43.0513272]
 phone: null
 hours: "до 21:00"
 price: null

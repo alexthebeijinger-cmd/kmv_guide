@@ -6,7 +6,7 @@ subcategory: literary-sculpture
 status: draft
 partner_status: none
 address: "у входа в грот «Провал», Пятигорск, Ставропольский край"
-coords: null
+coords: [44.045018, 43.09655]
 phone: null
 hours: "09:00–20:00 (режим Провала, см. history/proval.md)"
 price: "бесплатно"

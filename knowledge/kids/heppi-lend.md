@@ -6,7 +6,7 @@ subcategory: entertainment-center
 status: draft
 partner_status: none
 address: "Октябрьская ул., 3, ТЦ «Весна», цокольный этаж, Пятигорск"
-coords: null
+coords: [44.0371649, 43.0744007]
 phone: null
 hours: "до 21:00"
 price: "развлекательные программы от 5500 ₽"

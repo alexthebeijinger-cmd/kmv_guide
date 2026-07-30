@@ -6,7 +6,7 @@ subcategory: mountain
 status: draft
 partner_status: none
 address: "гора Лохматая, северо-западный склон горы Бештау, городской округ Лермонтов, Ставропольский край"
-coords: null
+coords: [44.101285, 43.010285]
 phone: null
 hours: null
 price: null

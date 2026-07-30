@@ -6,7 +6,7 @@ subcategory: wild-baths
 status: draft
 partner_status: none
 address: "Пятигорск, район Пироговских ванн, Ставропольский край"
-coords: null
+coords: [44.040259, 43.08507]
 phone: null
 hours: "круглосуточно (открытый природный объект)"
 price: "бесплатно"
