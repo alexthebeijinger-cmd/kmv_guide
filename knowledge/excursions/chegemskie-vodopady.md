@@ -6,7 +6,7 @@ subcategory: outside-kmv
 status: draft
 partner_status: none
 address: "Чегемское ущелье, Кабардино-Балкария (выезд из Пятигорска)"
-coords: null
+coords: [43.4037982, 43.09155]
 phone: null
 hours: "выезд ~13:20, возвращение ~20:00 (~7 часов); дни: вт, чт, сб, вс"
 price: "от 2200 ₽"

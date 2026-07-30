@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "Первая Бульварная улица, 22, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0530476, 43.0640029]
 phone: null
 hours: null
 price: "комплексная мойка от 400 ₽"

@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: needs_review
 partner_status: none
 address: "Кисловодское шоссе, 48, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0606674, 42.9509813]
 phone: "+7 (938) 300-06-12"
 hours: "круглосуточно, без перерыва и выходных"
 price: null

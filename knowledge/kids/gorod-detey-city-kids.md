@@ -6,7 +6,7 @@ subcategory: family-restaurant-playroom
 status: draft
 partner_status: none
 address: "Беговая ул., 5, Пятигорск"
-coords: null
+coords: [44.0523841, 43.0015591]
 phone: "+7 (938) 532-17-17"
 hours: "до 21:00"
 price: null

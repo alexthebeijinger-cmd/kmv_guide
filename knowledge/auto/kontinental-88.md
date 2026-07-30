@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "Теплосерная улица, 152, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0340472, 43.0804413]
 phone: null
 hours: null
 price: null

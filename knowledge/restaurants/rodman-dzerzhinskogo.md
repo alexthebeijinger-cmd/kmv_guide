@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "ул. Дзержинского, 43, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0383318, 43.0745872]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 00:00» на момент проверки
 price: "адреналин кофе ~300 ₽ (Яндекс.Карты), средний чек ~550 ₽ (2ГИС)"

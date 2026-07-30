@@ -6,7 +6,7 @@ subcategory: service
 status: draft
 partner_status: none
 address: "Кисловодское шоссе, 23 ст1, Пятигорск, Ставропольский край (2 филиала)"
-coords: null
+coords: [44.052799, 42.9925796]
 phone: null
 hours: null
 price: null

@@ -6,7 +6,7 @@ subcategory: safety
 status: draft
 partner_status: none
 address: "Первая Бульварная ул., 37А, Пятигорск (травмпункт)"
-coords: null
+coords: [44.0530101, 43.0593256]
 phone: null
 hours: null
 price: null

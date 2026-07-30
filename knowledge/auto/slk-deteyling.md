@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "Теплосерная улица, 146 ст1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0372392, 43.0962131]
 phone: null
 hours: null
 price: "комплексная мойка от 2500 ₽"

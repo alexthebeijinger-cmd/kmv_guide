@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "Кузнечная ул., 8А, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0464105, 43.0689645]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 20:00» на момент проверки
 price: "кофе варёный ~260 ₽ (Яндекс.Карты)"

@@ -6,7 +6,7 @@ subcategory: spa
 status: draft
 partner_status: none
 address: "Университетская ул., 4, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.038504, 43.0723104]
 phone: null
 hours: "до 22:00"
 price: null

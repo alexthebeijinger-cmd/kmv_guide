@@ -6,7 +6,7 @@ subcategory: monument
 status: draft
 partner_status: none
 address: "улица Лермонтова, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0407418, 43.0775725]
 phone: null
 hours: null
 price: "бесплатно"

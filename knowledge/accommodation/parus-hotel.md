@@ -6,7 +6,7 @@ subcategory: hotel
 status: draft
 partner_status: none
 address: "Ивовая улица, 2, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0376425, 42.9953098]
 phone: null
 hours: "круглосуточно"
 price: "от 7200 ₽/ночь"

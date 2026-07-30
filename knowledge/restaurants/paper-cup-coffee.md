@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "просп. Кирова, 37В, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0364512, 43.0789604]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 23:00» на момент проверки
 price: "капучино 60–100 ₽ (Яндекс.Карты)"

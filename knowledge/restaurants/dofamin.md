@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "Соборная ул., 4, этаж 1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0356575, 43.0787532]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 23:00» на момент проверки
 price: "капучино ~230 ₽ (Яндекс.Карты), средний чек ~300 ₽ (2ГИС)"

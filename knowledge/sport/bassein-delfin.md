@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "Подстанционная ул., 23, Пятигорск"
-coords: null
+coords: [44.0756285, 43.0877918]
 phone: null
 hours: "с 8:00"
 price: "посещение от 350 ₽"

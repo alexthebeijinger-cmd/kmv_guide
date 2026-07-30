@@ -6,7 +6,7 @@ subcategory: service
 status: draft
 partner_status: none
 address: "ул. Мира, 159, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0402084, 43.0435115]
 phone: null
 hours: null
 price: null

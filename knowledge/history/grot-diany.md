@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "парк «Цветник», Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0367233, 43.08122]
 phone: null
 hours: "круглосуточно"
 price: "бесплатно"

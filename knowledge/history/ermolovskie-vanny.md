@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "просп. Кирова, 21, стр. 3, Пятигорск"
-coords: null
+coords: [44.036788, 43.0825832]
 phone: null
 hours: null
 price: "бесплатно (внешний осмотр, здание не функционирует)"

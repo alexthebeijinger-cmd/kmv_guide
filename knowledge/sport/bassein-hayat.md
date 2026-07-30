@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "Бештаугорское ш., 161, Пятигорск"
-coords: null
+coords: [44.0630158, 43.0034396]
 phone: null
 hours: "до 21:00 (сезонно, летние открытые бассейны)"
 price: null

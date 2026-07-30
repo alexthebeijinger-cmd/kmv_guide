@@ -6,7 +6,7 @@ subcategory: table-tennis
 status: draft
 partner_status: none
 address: "ул. Ермолова, 26А, этаж 2, Пятигорск"
-coords: null
+coords: [44.046463, 43.0137339]
 phone: null
 hours: null
 price: "инвентарь для настольного тенниса — 1000 ₽"

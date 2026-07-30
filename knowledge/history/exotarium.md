@@ -6,7 +6,7 @@ subcategory: museum
 status: draft
 partner_status: none
 address: "просп. Кирова, 18, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0377137, 43.0835264]
 phone: null
 hours: null
 price: null

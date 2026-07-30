@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "бул. Гагарина, 19, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0424246, 43.0943814]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 22:00» на момент проверки
 price: "средний чек ~300 ₽ (2ГИС)"

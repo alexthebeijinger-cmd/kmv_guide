@@ -6,7 +6,7 @@ subcategory: azs
 status: ready
 partner_status: none
 address: "ул. Ермолова, 46, Пятигорск"
-coords: null
+coords: [44.0513668, 43.0001075]
 phone: null
 hours: "круглосуточно"
 price: null

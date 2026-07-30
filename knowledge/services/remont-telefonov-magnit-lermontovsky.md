@@ -6,7 +6,7 @@ subcategory: electronics-repair
 status: draft
 partner_status: none
 address: "ул. 295-й Стрелковой Дивизии, 18, Пятигорск, Ставропольский край (район Белая Ромашка, рядом с ТЦ «Лермонтовский», д. 1, где «Магнит» и «Магнит Косметик»)"
-coords: null
+coords: [44.0588415, 43.0684074]
 phone: null
 hours: null
 price: null

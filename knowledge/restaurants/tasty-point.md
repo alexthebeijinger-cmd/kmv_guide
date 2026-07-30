@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "Ессентукская ул., 29, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0479394, 43.0343331]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 23:00» на момент проверки
 price: "айс кофе урбеч ~320 ₽ (Яндекс.Карты), средний чек ~800 ₽ (2ГИС)"

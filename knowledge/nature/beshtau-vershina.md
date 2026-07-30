@@ -6,7 +6,7 @@ subcategory: mountain
 status: draft
 partner_status: none
 address: "гора Бештау, городской округ Лермонтов, Ставропольский край"
-coords: null
+coords: [44.095195, 43.0337358]
 phone: null
 hours: null
 price: null

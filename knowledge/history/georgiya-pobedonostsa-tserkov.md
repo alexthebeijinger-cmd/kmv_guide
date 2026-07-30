@@ -6,7 +6,7 @@ subcategory: religion
 status: draft
 partner_status: none
 address: "гора Бештау (территория монастыря), городской округ Лермонтов, Ставропольский край"
-coords: null
+coords: [44.095195, 43.0337358]
 phone: null
 hours: "до 18:00 (общий режим монастыря)"
 price: null

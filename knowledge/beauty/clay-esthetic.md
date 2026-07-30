@@ -6,7 +6,7 @@ subcategory: massage
 status: draft
 partner_status: none
 address: "просп. Калинина, 59, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0666401, 43.0744567]
 phone: null
 hours: "до 21:00"
 price: null

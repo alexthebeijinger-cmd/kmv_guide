@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. Крайнего, 59, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0350385, 43.0716389]
 phone: null
 hours: null   # на скриншоте «Открыто до 21:00», полный график не зафиксирован
 price: null

@@ -6,7 +6,7 @@ subcategory: orthodox-church
 status: draft
 partner_status: none
 address: "ул. Пастухова, 1, Пятигорск"
-coords: null
+coords: [44.0452437, 43.0751314]
 phone: "+7 (8793) 33-61-41"
 hours: "с 7:00"
 price: "бесплатно"

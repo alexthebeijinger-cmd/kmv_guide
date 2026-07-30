@@ -6,7 +6,7 @@ subcategory: entertainment-center
 status: draft
 partner_status: none
 address: "Бештаугорское ш., 24Ж, Пятигорск"
-coords: null
+coords: [44.0640069, 43.0515458]
 phone: null
 hours: "до 22:00"
 price: null

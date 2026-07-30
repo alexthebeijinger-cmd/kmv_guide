@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "просп. Калинина, 2, корп. 1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0594417, 43.0693401]
 phone: null
 hours: null
 price: "бесплатно"

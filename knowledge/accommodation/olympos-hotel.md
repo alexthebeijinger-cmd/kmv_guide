@@ -6,7 +6,7 @@ subcategory: hotel
 status: draft
 partner_status: none
 address: "Московская улица, 67, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.060995, 43.0534424]
 phone: null
 hours: "круглосуточно"
 price: "семейный номер от 9000 ₽/ночь"

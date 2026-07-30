@@ -6,7 +6,7 @@ subcategory: barbershop
 status: draft
 partner_status: none
 address: "Февральская ул., 60, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0385723, 43.0350146]
 phone: null
 hours: "до 22:00"
 price: null

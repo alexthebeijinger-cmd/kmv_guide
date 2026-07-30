@@ -6,7 +6,7 @@ subcategory: auto-parts-service
 status: needs_review
 partner_status: none
 address: "ул. Ермолова, 12а, Пятигорск"
-coords: null
+coords: [44.0432676, 43.0280648]
 phone: "+7 (8793) 31-97-33"   # из открытых источников (moyaspravka.ru), на месте не сверено
 hours: "07:30–19:00, без перерывов и выходных (по табличке на входе)"
 price: null

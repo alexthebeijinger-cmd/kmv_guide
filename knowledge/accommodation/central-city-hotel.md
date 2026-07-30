@@ -6,7 +6,7 @@ subcategory: hotel
 status: draft
 partner_status: none
 address: "проспект Калинина, 45, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0435526, 43.0663735]
 phone: null
 hours: "круглосуточно"
 price: "от 11090 ₽/ночь"

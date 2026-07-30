@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. Акопянца, 11, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0428378, 43.0645953]
 phone: null
 hours: null   # на скриншоте «Открыто до 21:00», полный график не зафиксирован
 price: "150–300 ₽ (ориентир Яндекс.Карт)"

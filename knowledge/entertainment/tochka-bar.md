@@ -6,7 +6,7 @@ subcategory: bar-nightlife
 status: draft
 partner_status: none
 address: "ул. Коста Хетагурова, 23, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0399262, 43.0665855]
 phone: null
 hours: null
 price: "пиво от 200 ₽"

@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "гора Бештау (склон), городской округ Лермонтов, Ставропольский край"
-coords: null
+coords: [44.095195, 43.0337358]
 phone: null
 hours: null
 price: null

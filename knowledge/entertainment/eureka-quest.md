@@ -6,7 +6,7 @@ subcategory: quest
 status: draft
 partner_status: none
 address: "Октябрьская ул., 8, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0374625, 43.0722507]
 phone: null
 hours: "до 22:00"
 price: null

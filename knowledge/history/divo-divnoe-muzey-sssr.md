@@ -6,7 +6,7 @@ subcategory: museum
 status: draft
 partner_status: none
 address: "просп. Кирова, 25 (эт. 2), Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0363859, 43.0795587]
 phone: "+7 (918) 465-48-35"
 hours: null
 price: null

@@ -6,7 +6,7 @@ subcategory: service
 status: draft
 partner_status: none
 address: "ул. Ермолова, 22/1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0457333, 43.0152716]
 phone: null
 hours: null
 price: null

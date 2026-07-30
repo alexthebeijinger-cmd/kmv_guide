@@ -6,7 +6,7 @@ subcategory: hub
 status: draft
 partner_status: none
 address: "Октябрьская ул., 75, Пятигорск"
-coords: null
+coords: [44.0374019, 43.0551375]
 phone: "8 (800) 775-00-00"
 hours: "круглосуточно"
 price: null

@@ -6,7 +6,7 @@ subcategory: barbershop
 status: draft
 partner_status: none
 address: "просп. Кирова, 51А, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.035475, 43.0591942]
 phone: null
 hours: "до 22:00"
 price: null

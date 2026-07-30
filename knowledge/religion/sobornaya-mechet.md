@@ -6,7 +6,7 @@ subcategory: mosque
 status: draft
 partner_status: none
 address: "Сквозной пер., 2/6, Пятигорск"
-coords: null
+coords: [44.039024, 43.0331134]
 phone: null
 hours: null
 price: "бесплатно"

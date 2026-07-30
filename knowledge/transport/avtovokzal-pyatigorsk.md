@@ -6,7 +6,7 @@ subcategory: hub
 status: draft
 partner_status: none
 address: "ул. Бунимовича, 34, Пятигорск"
-coords: null
+coords: [44.0308893, 43.0715387]
 phone: null
 hours: "до 22:30"
 price: null

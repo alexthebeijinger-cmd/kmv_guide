@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "ул. Малыгина, 12, Пятигорск"
-coords: null
+coords: [44.0402372, 43.0616497]
 phone: "+7 (8793) 97-44-90"
 hours: "до 21:00"
 price: null

@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "Украинская ул., 57, Пятигорск"
-coords: null
+coords: [44.0495529, 43.039468]
 phone: null
 hours: "до 21:00"
 price: "посещение от 400 ₽"

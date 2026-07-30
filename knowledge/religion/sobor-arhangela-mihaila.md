@@ -6,7 +6,7 @@ subcategory: orthodox-church
 status: draft
 partner_status: none
 address: "ул. Козлова, 39А, Пятигорск"
-coords: null
+coords: [44.0380007, 43.0520867]
 phone: "+7 (8793) 97-50-92"
 hours: null
 price: "бесплатно"

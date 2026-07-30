@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "Привокзальный пер., 1В, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0352169, 43.0539376]
 phone: null
 hours: null   # на скриншоте «Открыто до 20:00», полный график не зафиксирован
 price: null

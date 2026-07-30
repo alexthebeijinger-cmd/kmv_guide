@@ -6,7 +6,7 @@ subcategory: museum
 status: draft
 partner_status: none
 address: "ул. Карла Маркса, 6, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0382316, 43.0797671]
 phone: null
 hours: null
 price: null

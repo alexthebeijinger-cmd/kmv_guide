@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. Леваневского, 2, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0428397, 43.0677679]
 phone: null
 hours: null   # на скриншоте «Открыто до 18:00», полный график не зафиксирован
 price: null

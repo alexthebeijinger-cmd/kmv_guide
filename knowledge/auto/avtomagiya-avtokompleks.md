@@ -6,7 +6,7 @@ subcategory: service
 status: draft
 partner_status: none
 address: "ул. Ермолова, 12и, Пятигорск, Ставропольский край (2 филиала)"
-coords: null
+coords: [44.0499498, 43.0021944]
 phone: null
 hours: null
 price: "мойка от 700 ₽"

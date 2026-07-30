@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "ул. Пестова, 5, корп. 3, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0291445, 43.0705175]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 21:00» на момент проверки
 price: "капучино 180–240 ₽ (Яндекс.Карты), средний чек ~250 ₽ (2ГИС)"

@@ -6,7 +6,7 @@ subcategory: spa
 status: draft
 partner_status: none
 address: "площадь Ленина, 13, этаж 6, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.040837, 43.0734077]
 phone: null
 hours: "до 22:00"
 price: "парная спа-программа (общий массаж 90 мин) — 7500 ₽"

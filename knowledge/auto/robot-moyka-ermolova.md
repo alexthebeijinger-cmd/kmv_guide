@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "ул. Ермолова, 14в/1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0520023, 42.9951192]
 phone: null
 hours: null
 price: null

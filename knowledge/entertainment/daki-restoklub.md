@@ -6,7 +6,7 @@ subcategory: bar-nightlife
 status: draft
 partner_status: none
 address: "Октябрьская ул., 17, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0373112, 43.0731903]
 phone: null
 hours: "до 00:00"
 price: null

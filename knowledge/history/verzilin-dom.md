@@ -6,7 +6,7 @@ subcategory: museum
 status: ready
 partner_status: none
 address: "ул. Карла Маркса, 13, Пятигорск"
-coords: null
+coords: [44.0414232, 43.0784024]
 phone: null
 hours: "ср–вс 10:00–18:00 (общий график музея-заповедника, см. lermontov-domik); выходные — пн и вт"
 price: "400/600 ₽ (единый билет на весь музей-заповедник, без/с экскурсоводом); полная сетка льгот и категорий — см. таблицу в lermontov-domik.md"

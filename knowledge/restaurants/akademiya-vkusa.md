@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. Карла Маркса, 22, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0417554, 43.0787578]
 phone: null
 hours: null   # на скриншоте «Открыто до 20:00», полный график не зафиксирован
 price: null

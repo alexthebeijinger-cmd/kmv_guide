@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "просп. Кирова, 27А, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0360706, 43.0783113]
 phone: null
 hours: null   # на скриншоте «Открыто до 21:00», полный график не зафиксирован
 price: null

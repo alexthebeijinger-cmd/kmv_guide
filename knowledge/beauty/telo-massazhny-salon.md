@@ -6,7 +6,7 @@ subcategory: massage
 status: draft
 partner_status: none
 address: "ул. Акопянца, 2, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.043564, 43.0674929]
 phone: null
 hours: "до 21:30"
 price: null

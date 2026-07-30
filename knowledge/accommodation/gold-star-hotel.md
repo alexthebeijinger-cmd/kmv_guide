@@ -6,7 +6,7 @@ subcategory: hotel
 status: draft
 partner_status: none
 address: "Широкая улица, 109, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.055781, 43.0451006]
 phone: null
 hours: "круглосуточно"
 price: "от 4100 ₽/ночь"

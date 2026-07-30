@@ -6,7 +6,7 @@ subcategory: sanatorium
 status: draft
 partner_status: none
 address: "Пятигорск, Ставропольский край (точный адрес — уточнить)"
-coords: null
+coords: [44.039775, 43.0706669]
 phone: null
 hours: "круглосуточно"
 price: null

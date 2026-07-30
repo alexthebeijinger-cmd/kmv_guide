@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "просп. 40 лет Октября, 62А, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0373793, 43.0643237]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 23:00» на момент проверки
 price: "эспрессо ~250 ₽ (Яндекс.Карты), средний чек ~1550 ₽ (2ГИС)"

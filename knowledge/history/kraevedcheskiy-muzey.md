@@ -6,7 +6,7 @@ subcategory: museum
 status: ready
 partner_status: none
 address: "ул. Братьев Бернардацци, 2, Пятигорск"
-coords: null
+coords: [44.0362785, 43.0798875]
 phone: null
 hours: "пн–чт, сб–вс 10:00–18:00; пт 10:00–17:00"
 price: "100 ₽ (взрослый)"

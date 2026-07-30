@@ -6,7 +6,7 @@ subcategory: market
 status: draft
 partner_status: none
 address: "ул. Леваневского, 3, стр. 5, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0419019, 43.0684952]
 phone: null
 hours: null
 price: null

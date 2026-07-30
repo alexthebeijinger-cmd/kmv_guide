@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "Лермонтовский разъезд, 43, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0640128, 43.0606355]
 phone: null
 hours: null
 price: "комплексная мойка от 1500 ₽"

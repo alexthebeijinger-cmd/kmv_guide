@@ -6,7 +6,7 @@ subcategory: service
 status: draft
 partner_status: none
 address: "Первомайская улица, 83 ст2, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.029523, 43.0584246]
 phone: null
 hours: null
 price: null

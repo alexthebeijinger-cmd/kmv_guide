@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. 295-й Стрелковой Дивизии, 13, корп. 1, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0615812, 43.0652989]
 phone: null
 hours: null   # на скриншоте «Открыто до 18:00», полный график не зафиксирован
 price: null

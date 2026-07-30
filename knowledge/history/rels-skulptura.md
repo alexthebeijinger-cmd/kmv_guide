@@ -6,7 +6,7 @@ subcategory: sculpture
 status: draft
 partner_status: none
 address: "Пятигорск, Ставропольский край (точный адрес не указан)"
-coords: null
+coords: [44.039775, 43.0706669]
 phone: null
 hours: null
 price: "бесплатно"

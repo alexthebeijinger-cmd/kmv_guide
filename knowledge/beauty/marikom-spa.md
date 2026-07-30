@@ -6,7 +6,7 @@ subcategory: spa
 status: draft
 partner_status: none
 address: "Октябрьская ул., 3, этаж 3, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0371649, 43.0744007]
 phone: null
 hours: "до 21:00"
 price: "СПА-программа «Афродита» (очищение + маска + массаж лица и тела, 4 ч) — 8000 ₽"

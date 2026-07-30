@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "Украинская ул., 61, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0514272, 43.0400794]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 21:00» на момент проверки
 price: "капучино от 60 ₽ (Яндекс.Карты), средний чек ~250 ₽ (2ГИС)"

@@ -6,7 +6,7 @@ subcategory: monument
 status: draft
 partner_status: none
 address: "бульвар Гагарина, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.043334, 43.0819693]
 phone: null
 hours: null
 price: "бесплатно"

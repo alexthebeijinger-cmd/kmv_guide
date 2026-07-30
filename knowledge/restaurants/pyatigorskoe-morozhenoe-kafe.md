@@ -6,7 +6,7 @@ subcategory: kafe-morozhenoe
 status: ready
 partner_status: candidate
 address: "ул. Козлова, 39Л, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.03844, 43.0407343]
 phone: null
 hours: "07:30–20:00, без перерыва и выходных"
 price: null

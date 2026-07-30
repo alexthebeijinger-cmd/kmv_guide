@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "Краснознамённая улица, 5, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0487043, 43.0379639]
 phone: null
 hours: null
 price: "комплексная мойка от 2000 ₽"

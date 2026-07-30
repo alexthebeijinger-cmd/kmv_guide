@@ -6,7 +6,7 @@ subcategory: bike-rental
 status: draft
 partner_status: none
 address: "просп. 40 лет Октября, 91А, Пятигорск"
-coords: null
+coords: [44.037407, 43.0648404]
 phone: "+7 (8793) 33-54-00"
 hours: null
 price: null

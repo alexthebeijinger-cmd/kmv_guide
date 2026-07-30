@@ -6,7 +6,7 @@ subcategory: landmark
 status: draft
 partner_status: none
 address: "вершина горы Машук, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0499714, 43.0889419]
 phone: null
 hours: null
 price: "бесплатно"

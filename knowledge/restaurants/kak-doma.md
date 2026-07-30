@@ -6,7 +6,7 @@ subcategory: stolovaya
 status: draft
 partner_status: none
 address: "ул. Мира, 16, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0417816, 43.0700814]
 phone: null
 hours: null   # на скриншоте «Открыто до 18:00», полный график не зафиксирован
 price: "200–300 ₽ (ориентир Яндекс.Карт)"

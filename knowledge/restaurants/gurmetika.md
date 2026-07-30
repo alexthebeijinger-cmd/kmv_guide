@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "ул. Адмиральского, 37А, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0530597, 43.0402254]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 22:00» на момент проверки
 price: "эспрессо (0,2) ~169 ₽ (Яндекс.Карты)"

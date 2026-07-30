@@ -6,7 +6,7 @@ subcategory: street-food
 status: draft
 partner_status: none
 address: "бул. Гагарина, 31, Пятигорск"
-coords: null
+coords: [44.0438181, 43.0976863]
 phone: null
 hours: "ежедневно 11:00–22:00"   # из справочников (spravker, restaurantguru), на месте не сверено
 price: null

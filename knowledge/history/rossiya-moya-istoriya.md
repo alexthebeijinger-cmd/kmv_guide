@@ -6,7 +6,7 @@ subcategory: museum
 status: draft
 partner_status: none
 address: "Кооперативная ул., 42, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0363363, 43.0130755]
 phone: null
 hours: null
 price: null

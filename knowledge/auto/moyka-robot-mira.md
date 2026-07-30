@@ -6,7 +6,7 @@ subcategory: carwash
 status: draft
 partner_status: none
 address: "ул. Мира, 155а, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0403517, 43.0441023]
 phone: null
 hours: null
 price: null

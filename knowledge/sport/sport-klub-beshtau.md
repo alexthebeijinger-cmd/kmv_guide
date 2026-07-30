@@ -6,7 +6,7 @@ subcategory: fitness-pool
 status: draft
 partner_status: none
 address: "Первая Бульварная ул., 17, этаж 2, Пятигорск"
-coords: null
+coords: [44.053091, 43.0593042]
 phone: null
 hours: "круглосуточно"
 price: null

@@ -6,7 +6,7 @@ subcategory: souvenirs
 status: draft
 partner_status: none
 address: "ул. Дзержинского, 82, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0317605, 43.0726188]
 phone: null
 hours: null
 price: null

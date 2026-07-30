@@ -6,7 +6,7 @@ subcategory: cafe
 status: draft
 partner_status: none
 address: "просп. 40 лет Октября, 58А, ТЦ «Евросити», Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0405691, 43.0638286]
 phone: null
 hours: null   # Яндекс.Карты: «открыто до 23:00» на момент проверки
 price: "средний чек ~900 ₽ (2ГИС)"

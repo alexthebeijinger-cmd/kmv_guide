@@ -6,7 +6,7 @@ subcategory: souvenirs
 status: draft
 partner_status: none
 address: "Первомайская ул., 81Е, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.030162, 43.0561429]
 phone: null
 hours: null
 price: null

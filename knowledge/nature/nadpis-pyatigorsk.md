@@ -6,7 +6,7 @@ subcategory: viewpoint
 status: draft
 partner_status: none
 address: "гора Машук, Пятигорск, Ставропольский край"
-coords: null
+coords: [44.0561775, 43.0956769]
 phone: null
 hours: null
 price: null

@@ -6,7 +6,7 @@ subcategory: household
 status: draft
 partner_status: none
 address: "просп. 40 лет Октября, 51а, Пятигорск, Ставропольский край (7 филиалов)"
-coords: null
+coords: [44.045751, 43.0642527]
 phone: null
 hours: null
 price: null

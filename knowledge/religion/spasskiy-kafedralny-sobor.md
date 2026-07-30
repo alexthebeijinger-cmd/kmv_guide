@@ -6,7 +6,7 @@ subcategory: orthodox-church
 status: draft
 partner_status: none
 address: "Соборная ул., 1А, Пятигорск"
-coords: null
+coords: [44.0370097, 43.0781314]
 phone: "+7 (8793) 33-33-40"
 hours: "с 7:30"
 price: "бесплатно"

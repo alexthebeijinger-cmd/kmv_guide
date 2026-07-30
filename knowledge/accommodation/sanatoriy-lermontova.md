@@ -6,7 +6,7 @@ subcategory: sanatorium
 status: draft
 partner_status: none
 address: "ул. Лермонтова, Пятигорск, Ставропольский край (точный номер дома — уточнить; комплекс из нескольких корпусов, см. также 2ГИС-находку в OPEN-QUESTIONS.md §36 про «Ленинские скалы»)"
-coords: null
+coords: [44.0407418, 43.0775725]
 phone: null
 hours: "круглосуточно"
 price: null

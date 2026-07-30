@@ -6,7 +6,7 @@ subcategory: pool
 status: draft
 partner_status: none
 address: "Широкая ул., 106, Пятигорск"
-coords: null
+coords: [44.056894, 43.045097]
 phone: null
 hours: "до 21:00"
 price: "посещение 450–1300 ₽"
