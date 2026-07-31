@@ -3,7 +3,7 @@ id: mister-sloykin
 title: "«Мистер Слойкин» — розничная сеть кафе-кондитерских завода «Холод» (бренд «Пятигорское мороженое»)"
 category: restaurants
 subcategory: kafe-morozhenoe
-status: draft
+status: ready   # сеть-коллекция (см. SCHEMA.md примечание 3), адреса точек двойно подтверждены таблицей ниже
 partner_status: none
 address: "сеть по городу — известные адреса ниже, Пятигорск, Ставропольский край"
 coords: null

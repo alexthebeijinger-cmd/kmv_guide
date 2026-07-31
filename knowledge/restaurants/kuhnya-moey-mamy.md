@@ -3,7 +3,7 @@ id: kuhnya-moey-mamy
 title: "«Кухня моей мамы» — столовая, ул. 295-й Стрелковой Дивизии, 13/1"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. 295-й Стрелковой Дивизии, 13, корп. 1, Пятигорск, Ставропольский край"
 coords: [44.0615812, 43.0652989]

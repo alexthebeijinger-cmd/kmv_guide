@@ -3,7 +3,7 @@ id: robust-pervaya-bulvarnaya
 title: "Робуст — кофейня, Первая Бульварная ул., 17"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Первая Бульварная ул., 17 (гостиница «Бештау»), Пятигорск, Ставропольский край"
 coords: [44.0530476, 43.0640029]

@@ -3,7 +3,7 @@ id: tasty-point
 title: "Tasty Point — кофейня, Ессентукская ул., 29"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Ессентукская ул., 29, Пятигорск, Ставропольский край"
 coords: [44.0479394, 43.0343331]

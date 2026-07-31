@@ -3,7 +3,7 @@ id: tarelka
 title: "«Тарелка» — столовая-кондитерская, ул. Акопянца, 11"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Акопянца, 11, Пятигорск, Ставропольский край"
 coords: [44.0428378, 43.0645953]

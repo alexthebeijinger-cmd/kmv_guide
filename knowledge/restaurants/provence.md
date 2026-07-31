@@ -3,7 +3,7 @@ id: provence
 title: "Provence — французская булочная-кофейня, Кузнечная ул., 8А"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Кузнечная ул., 8А, Пятигорск, Ставропольский край"
 coords: [44.0464105, 43.0689645]

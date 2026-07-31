@@ -3,7 +3,7 @@ id: coffee-woops
 title: "Coffee Woops — кофейня, Украинская ул., 61"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Украинская ул., 61, Пятигорск, Ставропольский край"
 coords: [44.0514272, 43.0400794]

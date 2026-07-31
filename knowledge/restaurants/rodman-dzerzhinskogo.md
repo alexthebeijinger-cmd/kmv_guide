@@ -3,7 +3,7 @@ id: rodman-dzerzhinskogo
 title: "Rodman — кофейня, ул. Дзержинского, 43"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Дзержинского, 43, Пятигорск, Ставропольский край"
 coords: [44.0383318, 43.0745872]

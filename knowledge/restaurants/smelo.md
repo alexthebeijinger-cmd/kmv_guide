@@ -3,7 +3,7 @@ id: smelo
 title: "Смело — ресторан-кофейня, просп. 40 лет Октября, 62А"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. 40 лет Октября, 62А, Пятигорск, Ставропольский край"
 coords: [44.0373793, 43.0643237]

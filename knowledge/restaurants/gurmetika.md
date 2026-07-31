@@ -3,7 +3,7 @@ id: gurmetika
 title: "Гурмэтика — магазин готовых продуктов с кофе с собой, ул. Адмиральского, 37А"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Адмиральского, 37А, Пятигорск, Ставропольский край"
 coords: [44.0530597, 43.0402254]

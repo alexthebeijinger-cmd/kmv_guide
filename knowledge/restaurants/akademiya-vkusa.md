@@ -3,7 +3,7 @@ id: akademiya-vkusa
 title: "«Академия вкуса» — столовая-кофейня, ул. Карла Маркса, 22"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Карла Маркса, 22, Пятигорск, Ставропольский край"
 coords: [44.0417554, 43.0787578]

@@ -3,7 +3,7 @@ id: moya-stolovaya-privokzalny
 title: "«Моя Столовая» — Привокзальный пер., 1В"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Привокзальный пер., 1В, Пятигорск, Ставропольский край"
 coords: [44.0352169, 43.0539376]

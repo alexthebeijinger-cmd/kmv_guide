@@ -3,7 +3,7 @@ id: syty-slon
 title: "«Сытый слон» — столовая с доставкой обедов, просп. Кирова, 27А"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. Кирова, 27А, Пятигорск, Ставропольский край"
 coords: [44.0360706, 43.0783113]

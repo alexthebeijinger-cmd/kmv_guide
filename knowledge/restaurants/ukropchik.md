@@ -3,7 +3,7 @@ id: ukropchik
 title: "«Укропчик» — столовая-кафе, ул. Крайнего, 59"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Крайнего, 59, Пятигорск, Ставропольский край"
 coords: [44.0350385, 43.0716389]

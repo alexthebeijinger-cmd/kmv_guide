@@ -3,7 +3,7 @@ id: drinkberry
 title: "Дринкберри — кофейня, Ессентукская ул., 29Б"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Ессентукская ул., 29Б, павильон 22, Пятигорск, Ставропольский край"
 coords: [44.0429901, 43.0352221]

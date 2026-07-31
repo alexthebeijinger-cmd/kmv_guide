@@ -3,7 +3,7 @@ id: prokofe
 title: "ProКофе — кофейня, ул. Пестова, 5, корп. 3"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Пестова, 5, корп. 3, Пятигорск, Ставропольский край"
 coords: [44.0291445, 43.0705175]

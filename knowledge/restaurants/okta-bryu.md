@@ -3,7 +3,7 @@ id: okta-bryu
 title: "Окта-Брю — кофейня, просп. 40 лет Октября, 58А (ТЦ «Евросити»)"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. 40 лет Октября, 58А, ТЦ «Евросити», Пятигорск, Ставропольский край"
 coords: [44.0405691, 43.0638286]

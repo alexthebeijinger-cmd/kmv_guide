@@ -3,7 +3,7 @@ id: moya-stolovaya-oktyabrskaya
 title: "«Моя столовая» — Октябрьская, 21"
 category: restaurants
 subcategory: stolovaya
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Октябрьская ул., 21, Пятигорск, Ставропольский край"
 coords: [44.0370071, 43.069875]

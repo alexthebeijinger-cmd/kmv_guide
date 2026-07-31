@@ -3,7 +3,7 @@ id: dofamin
 title: "Dofamin — спешелти-кофейня, Соборная ул., 4"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Соборная ул., 4, этаж 1, Пятигорск, Ставропольский край"
 coords: [44.0356575, 43.0787532]

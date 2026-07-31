@@ -3,7 +3,7 @@ id: paper-cup-coffee
 title: "Paper Cup Coffee — сеть кофеен, просп. Кирова, 37В"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. Кирова, 37В, Пятигорск, Ставропольский край"
 coords: [44.0364512, 43.0789604]

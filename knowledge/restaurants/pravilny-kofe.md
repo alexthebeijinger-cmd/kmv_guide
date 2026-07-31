@@ -3,7 +3,7 @@ id: pravilny-kofe
 title: "Правильный кофе — кофейня, просп. Кирова, 23, этаж 2"
 category: restaurants
 subcategory: cafe
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. Кирова, 23, этаж 2 (парк «Цветник»), Пятигорск, Ставропольский край"
 coords: [44.0366143, 43.0803228]
