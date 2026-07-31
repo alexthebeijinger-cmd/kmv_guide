@@ -12,7 +12,10 @@
 ---
 id: kebab-case-slug              # уникальный внутри всего проекта, использовать как ID точки в Qdrant
 title: "Человекочитаемое название"
-category: history | restaurants | transport | nature | services | auto
+category: history | restaurants | transport | nature | services | auto |
+                                   # accommodation | beauty | degustatsii | entertainment |
+                                   # excursions | infrastructure | kids | parks | religion |
+                                   # shopping | sport   (список расширен 31.07.2026 по факту роста базы)
 subcategory: свободная строка     # museum | cemetery | landmark | cafe | street-food | summer-cafe | dental |
                                    # tram | train | bus | terrenkur-collection | byuvet-collection | ...
 status: draft | needs_review | ready   # готовность контента к публикации в боевую RAG-базу

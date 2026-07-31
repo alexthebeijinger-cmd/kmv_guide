@@ -46,7 +46,11 @@ SKIP_FILES = {
 
 # Обязательные поля фронтматтера для карточки, готовой к загрузке (см. knowledge/SCHEMA.md).
 REQUIRED_FIELDS = ("id", "title", "category", "status")
-VALID_CATEGORIES = {"history", "restaurants", "transport", "nature", "services", "auto"}
+VALID_CATEGORIES = {
+    "history", "restaurants", "transport", "nature", "services", "auto",
+    "accommodation", "beauty", "degustatsii", "entertainment", "excursions",
+    "infrastructure", "kids", "parks", "religion", "shopping", "sport",
+}
 
 
 def load_env(env_path: Path) -> dict:
