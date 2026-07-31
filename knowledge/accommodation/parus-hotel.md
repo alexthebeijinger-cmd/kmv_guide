@@ -3,7 +3,7 @@ id: parus-hotel
 title: "Гостиница Parus — Ивовая ул., 2"
 category: accommodation
 subcategory: hotel
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Ивовая улица, 2, Пятигорск, Ставропольский край"
 coords: [44.0376425, 42.9953098]

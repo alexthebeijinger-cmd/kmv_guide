@@ -3,7 +3,7 @@ id: olympos-hotel
 title: "Гостиница Olympos — Московская ул., 67"
 category: accommodation
 subcategory: hotel
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Московская улица, 67, Пятигорск, Ставропольский край"
 coords: [44.060995, 43.0534424]

@@ -3,7 +3,7 @@ id: central-city-hotel
 title: "Гостиница Central City — просп. Калинина, 45"
 category: accommodation
 subcategory: hotel
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "проспект Калинина, 45, Пятигорск, Ставропольский край"
 coords: [44.0435526, 43.0663735]

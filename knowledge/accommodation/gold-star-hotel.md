@@ -3,7 +3,7 @@ id: gold-star-hotel
 title: "Гостиница Gold Star — Широкая ул., 109"
 category: accommodation
 subcategory: hotel
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Широкая улица, 109, Пятигорск, Ставропольский край"
 coords: [44.055781, 43.0451006]
