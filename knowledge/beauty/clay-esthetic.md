@@ -3,7 +3,7 @@ id: clay-esthetic
 title: "Clay Esthetic — массажный салон, просп. Калинина, 59"
 category: beauty
 subcategory: massage
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. Калинина, 59, Пятигорск, Ставропольский край"
 coords: [44.0666401, 43.0744567]

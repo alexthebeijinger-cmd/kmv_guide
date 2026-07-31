@@ -3,7 +3,7 @@ id: chernaya-kost-barbershop
 title: "«Чёрная кость» — барбершоп, просп. Кирова, 51А"
 category: beauty
 subcategory: barbershop
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. Кирова, 51А, Пятигорск, Ставропольский край"
 coords: [44.035475, 43.0591942]

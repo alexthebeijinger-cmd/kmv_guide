@@ -3,7 +3,7 @@ id: barber-i-barbi
 title: "«Барбер & Барби» — барбершоп, Февральская ул., 60"
 category: beauty
 subcategory: barbershop
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Февральская ул., 60, Пятигорск, Ставропольский край"
 coords: [44.0385723, 43.0350146]

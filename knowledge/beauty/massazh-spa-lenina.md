@@ -3,7 +3,7 @@ id: massazh-spa-lenina
 title: "Массаж&spa — спа-салон, площадь Ленина, 13"
 category: beauty
 subcategory: spa
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "площадь Ленина, 13, этаж 6, Пятигорск, Ставропольский край"
 coords: [44.040837, 43.0734077]

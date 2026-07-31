@@ -3,7 +3,7 @@ id: telo-massazhny-salon
 title: "«Тело» — массажный салон, ул. Акопянца, 2"
 category: beauty
 subcategory: massage
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Акопянца, 2, Пятигорск, Ставропольский край"
 coords: [44.043564, 43.0674929]

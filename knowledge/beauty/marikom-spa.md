@@ -3,7 +3,7 @@ id: marikom-spa
 title: "Мариком SPA — спа-салон/салон красоты, Октябрьская ул., 3"
 category: beauty
 subcategory: spa
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Октябрьская ул., 3, этаж 3, Пятигорск, Ставропольский край"
 coords: [44.0371649, 43.0744007]

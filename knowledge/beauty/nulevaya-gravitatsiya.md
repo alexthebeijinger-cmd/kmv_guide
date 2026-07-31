@@ -3,7 +3,7 @@ id: nulevaya-gravitatsiya
 title: "Нулевая Гравитация — спа-салон, флоатинг, Университетская ул., 4"
 category: beauty
 subcategory: spa
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Университетская ул., 4, Пятигорск, Ставропольский край"
 coords: [44.038504, 43.0723104]
