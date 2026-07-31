@@ -3,7 +3,7 @@ id: hram-solntsa-beshtau
 title: "Скальный выступ «Храм Солнца» — гора Бештау"
 category: nature
 subcategory: viewpoint
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Бештау (склон), городской округ Лермонтов, Ставропольский край"
 coords: [44.095195, 43.0337358]

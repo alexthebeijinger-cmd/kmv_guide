@@ -3,7 +3,7 @@ id: orel-skulptura-mashuk
 title: "Скульптура «Орёл» на вершине Машука"
 category: nature
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "вершина горы Машук, Пятигорск, Ставропольский край"
 coords: [44.0499714, 43.0889419]

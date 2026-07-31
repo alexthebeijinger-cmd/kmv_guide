@@ -3,7 +3,7 @@ id: arka-lyubvi-mashuk
 title: "Арка любви на Машуке"
 category: nature
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Машук, вершина, Пятигорск, Ставропольский край"
 coords: [44.050012, 43.077497]

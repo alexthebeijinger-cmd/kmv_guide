@@ -3,7 +3,7 @@ id: leninskie-skaly
 title: "Ленинские скалы — смотровая площадка, гора Машук"
 category: nature
 subcategory: viewpoint
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Машук, памятник природы, Пятигорск, Ставропольский край"
 coords: [44.056515, 43.093599]

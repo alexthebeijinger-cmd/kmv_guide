@@ -3,7 +3,7 @@ id: dikie-narzannye-vanny
 title: "Дикие нарзанные ванны"
 category: nature
 subcategory: wild-baths
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Пятигорск, Нагорный парк, Ставропольский край"
 coords: [44.040565, 43.081683]

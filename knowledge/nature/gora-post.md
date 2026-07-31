@@ -3,7 +3,7 @@ id: gora-post
 title: "Гора Пост (556 метров)"
 category: nature
 subcategory: mountain
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "микрорайон Горапост, Пятигорск, Ставропольский край"
 coords: [44.042199, 43.052029]

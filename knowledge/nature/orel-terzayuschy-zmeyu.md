@@ -3,7 +3,7 @@ id: orel-terzayuschy-zmeyu
 title: "«Орёл, терзающий змею» — символ КМВ, Горячая гора"
 category: nature
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Горячая гора, Пятигорск, Ставропольский край (точный адрес уточняется)"
 coords: [44.036698, 43.083104]

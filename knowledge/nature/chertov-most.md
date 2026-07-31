@@ -3,7 +3,7 @@ id: chertov-most
 title: "Чёртов мост"
 category: nature
 subcategory: viewpoint
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Емануелевский парк, Пятигорск, Ставропольский край"
 coords: [44.040188, 43.083884]

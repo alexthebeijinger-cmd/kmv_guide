@@ -3,7 +3,7 @@ id: maly-beshtau
 title: "Гора Малый Бештау (1254 м)"
 category: nature
 subcategory: mountain
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Малый Бештау, городской округ Лермонтов, Ставропольский край"
 coords: [44.102295, 43.019847]

@@ -3,7 +3,7 @@ id: serovodorodnye-vanny
 title: "Сероводородные ванны"
 category: nature
 subcategory: wild-baths
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Пятигорск, район Пироговских ванн, Ставропольский край"
 coords: [44.040259, 43.08507]

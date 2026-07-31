@@ -3,7 +3,7 @@ id: nadpis-pyatigorsk
 title: "Надпись «Пятигорск» — гора Машук"
 category: nature
 subcategory: viewpoint
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Машук, Пятигорск, Ставропольский край"
 coords: [44.0561775, 43.0956769]

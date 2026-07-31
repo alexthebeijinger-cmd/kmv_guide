@@ -3,7 +3,7 @@ id: novopyatigorsky-kurgan
 title: "Новопятигорский курган"
 category: nature
 subcategory: viewpoint
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (маршрут подъёма, дубли объектов, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Пятигорск, микрорайон Новопятигорск, Ставропольский край"
 coords: [44.0437, 43.014727]
