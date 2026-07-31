@@ -3,7 +3,7 @@ id: pechorin-skulptura
 title: "Скульптура «Печорин»"
 category: history
 subcategory: literary-sculpture
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "гора Машук, парк, Пятигорск, Ставропольский край"
 coords: [44.040747, 43.084858]

@@ -3,7 +3,7 @@ id: mesto-dueli-lermontova
 title: "Место дуэли М.Ю. Лермонтова"
 category: history
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "склон горы Машук, Пятигорск, Ставропольский край"
 coords: [44.059406, 43.07691]

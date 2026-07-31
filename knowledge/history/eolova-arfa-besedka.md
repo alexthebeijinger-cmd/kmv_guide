@@ -3,7 +3,7 @@ id: eolova-arfa-besedka
 title: "Беседка «Эолова арфа»"
 category: history
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Емануелевский парк, Пятигорск, Ставропольский край"
 coords: [44.040299, 43.086827]

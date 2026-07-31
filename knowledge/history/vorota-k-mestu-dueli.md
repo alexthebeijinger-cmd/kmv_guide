@@ -3,7 +3,7 @@ id: vorota-k-mestu-dueli
 title: "Ворота к месту дуэли М.Ю. Лермонтова"
 category: history
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "проспект Калинина, Пятигорск, Ставропольский край"
 coords: [44.033464, 43.0667551]

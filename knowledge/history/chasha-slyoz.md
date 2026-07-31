@@ -3,7 +3,7 @@ id: chasha-slyoz
 title: "«Чаша слёз» (мемориал «Огонь Вечной Славы»)"
 category: history
 subcategory: memorial
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "сквер имени В.И. Ленина, Пятигорск, Ставропольский край"
 coords: [44.040247, 43.076098]

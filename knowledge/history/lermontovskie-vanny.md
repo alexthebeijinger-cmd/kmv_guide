@@ -3,7 +3,7 @@ id: lermontovskie-vanny
 title: "Лермонтовские ванны"
 category: history
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "просп. Кирова, 21, Пятигорск"
 coords: [44.036788, 43.0825832]

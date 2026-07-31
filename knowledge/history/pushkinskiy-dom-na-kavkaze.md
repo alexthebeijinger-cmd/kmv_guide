@@ -3,7 +3,7 @@ id: pushkinskiy-dom-na-kavkaze
 title: "Пушкинский Дом на Кавказе — ул. Карла Маркса, 6"
 category: history
 subcategory: museum
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "ул. Карла Маркса, 6, Пятигорск, Ставропольский край"
 coords: [44.0382316, 43.0797671]

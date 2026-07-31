@@ -3,7 +3,7 @@ id: rossiya-moya-istoriya
 title: "Россия – моя история (Моя страна. Моя история) — исторический парк, Кооперативная ул., 42"
 category: history
 subcategory: museum
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "Кооперативная ул., 42, Пятигорск, Ставропольский край"
 coords: [44.0363363, 43.0130755]

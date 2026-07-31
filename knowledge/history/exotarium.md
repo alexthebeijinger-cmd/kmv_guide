@@ -3,7 +3,7 @@ id: exotarium
 title: "Экзотариум — музей насекомых, просп. Кирова, 18"
 category: history
 subcategory: museum
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "просп. Кирова, 18, Пятигорск, Ставропольский край"
 coords: [44.0377137, 43.0835264]

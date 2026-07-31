@@ -3,7 +3,7 @@ id: vechny-ogon
 title: "«Вечный огонь» (сквер имени В.И. Ленина)"
 category: history
 subcategory: monument
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "сквер имени В.И. Ленина, Пятигорск, Ставропольский край"
 coords: [44.040387, 43.076262]

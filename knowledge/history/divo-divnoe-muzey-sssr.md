@@ -3,7 +3,7 @@ id: divo-divnoe-muzey-sssr
 title: "Диво Дивное (Музей СССР) — просп. Кирова, 25"
 category: history
 subcategory: museum
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "просп. Кирова, 25 (эт. 2), Пятигорск, Ставропольский край"
 coords: [44.0363859, 43.0795587]

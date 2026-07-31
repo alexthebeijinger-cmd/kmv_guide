@@ -3,7 +3,7 @@ id: portret-lenina-belaya-romashka
 title: "Портрет В.И. Ленина (Белая Ромашка)"
 category: history
 subcategory: landmark
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — детали (автор, часы, фото) остаются открытыми пунктами, не блокируют публикацию
 partner_status: none
 address: "просп. Калинина, 2, корп. 1, Пятигорск, Ставропольский край"
 coords: [44.0594417, 43.0693401]
