@@ -3,7 +3,7 @@ id: spasskiy-kafedralny-sobor
 title: "Спасский кафедральный собор"
 category: religion
 subcategory: orthodox-church
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — расписание богослужений и часы вне служб остаются открытыми, не блокируют
 partner_status: none
 address: "Соборная ул., 1А, Пятигорск"
 coords: [44.0370097, 43.0781314]

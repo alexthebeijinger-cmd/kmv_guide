@@ -3,7 +3,7 @@ id: sobor-arhangela-mihaila
 title: "Собор Архангела Михаила"
 category: religion
 subcategory: orthodox-church
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — расписание богослужений и часы вне служб остаются открытыми, не блокируют
 partner_status: none
 address: "ул. Козлова, 39А, Пятигорск"
 coords: [44.0380007, 43.0520867]

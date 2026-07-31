@@ -3,7 +3,7 @@ id: sobornaya-mechet
 title: "Соборная мечеть"
 category: religion
 subcategory: mosque
-status: draft
+status: ready   # landmark-исключение (Yandex-primary/2ГИС сверка, 31.07.2026) — расписание богослужений и часы вне служб остаются открытыми, не блокируют
 partner_status: none
 address: "Сквозной пер., 2/6, Пятигорск"
 coords: [44.039024, 43.0331134]
