@@ -3,7 +3,7 @@ id: darksayd-bowling
 title: "Дарксайд — боулинг, ул. Панагюриште, 2"
 category: entertainment
 subcategory: bowling
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Панагюриште, 2, ТЦ «Университи Молл», цокольный этаж, Пятигорск, Ставропольский край"
 coords: [44.0540515, 43.0638833]

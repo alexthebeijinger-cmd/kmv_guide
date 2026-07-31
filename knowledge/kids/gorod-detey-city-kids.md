@@ -3,7 +3,7 @@ id: gorod-detey-city-kids
 title: "«Город Детей» (City Kids)"
 category: kids
 subcategory: family-restaurant-playroom
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Беговая ул., 5, Пятигорск"
 coords: [44.0523841, 43.0015591]

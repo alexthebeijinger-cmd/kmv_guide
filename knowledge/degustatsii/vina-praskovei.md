@@ -3,7 +3,7 @@ id: vina-praskovei
 title: "«Вина Прасковеи» — дегустационный зал-магазин, сеть по Пятигорску"
 category: degustatsii
 subcategory: wine-cognac
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "флагманская точка: ул. Карла Маркса, 1, Пятигорск; сеть из нескольких точек по городу (см. таблицу)"
 coords: [44.03736, 43.0790615]

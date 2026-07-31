@@ -3,7 +3,7 @@ id: heppi-lend
 title: "«Хеппи ленд»"
 category: kids
 subcategory: entertainment-center
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Октябрьская ул., 3, ТЦ «Весна», цокольный этаж, Пятигорск"
 coords: [44.0371649, 43.0744007]

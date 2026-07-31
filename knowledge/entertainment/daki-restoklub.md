@@ -3,7 +3,7 @@ id: daki-restoklub
 title: "Daki — ресторан-клуб, кальян-бар, Октябрьская ул., 17"
 category: entertainment
 subcategory: bar-nightlife
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Октябрьская ул., 17, Пятигорск, Ставропольский край"
 coords: [44.0373112, 43.0731903]

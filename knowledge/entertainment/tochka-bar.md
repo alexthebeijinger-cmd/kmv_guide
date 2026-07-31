@@ -3,7 +3,7 @@ id: tochka-bar
 title: "«Точка» — бар, ночной клуб, ул. Коста Хетагурова, 23"
 category: entertainment
 subcategory: bar-nightlife
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Коста Хетагурова, 23, Пятигорск, Ставропольский край"
 coords: [44.0399262, 43.0665855]

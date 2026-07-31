@@ -3,7 +3,7 @@ id: remont-telefonov-magnit-lermontovsky
 title: "Телко Сервис — ремонт мобильных телефонов, ул. 295-й Стрелковой Дивизии, 18"
 category: services
 subcategory: electronics-repair
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. 295-й Стрелковой Дивизии, 18, Пятигорск, Ставропольский край (район Белая Ромашка, рядом с ТЦ «Лермонтовский», д. 1, где «Магнит» и «Магнит Косметик»)"
 coords: [44.0588415, 43.0684074]

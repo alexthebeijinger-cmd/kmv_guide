@@ -3,7 +3,7 @@ id: pyatigorskaya-bronza
 title: "«Пятигорская Бронза» — сувениры собственного производства, Первомайская ул., 81Е"
 category: shopping
 subcategory: souvenirs
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Первомайская ул., 81Е, Пятигорск, Ставропольский край"
 coords: [44.030162, 43.0561429]

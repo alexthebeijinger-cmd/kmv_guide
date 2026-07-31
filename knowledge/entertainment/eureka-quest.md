@@ -3,7 +3,7 @@ id: eureka-quest
 title: "Eureka — квесты, Октябрьская ул., 8"
 category: entertainment
 subcategory: quest
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Октябрьская ул., 8, Пятигорск, Ставропольский край"
 coords: [44.0374625, 43.0722507]

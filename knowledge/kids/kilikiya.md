@@ -3,7 +3,7 @@ id: kilikiya
 title: "«Киликия»"
 category: kids
 subcategory: entertainment-center
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Бештаугорское ш., 24Ж, Пятигорск"
 coords: [44.0640069, 43.0515458]

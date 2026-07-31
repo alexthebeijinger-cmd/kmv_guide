@@ -3,7 +3,7 @@ id: akademiya-chistoty
 title: "Академия чистоты — служба бытовых услуг, просп. 40 лет Октября, 51а"
 category: services
 subcategory: household
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "просп. 40 лет Октября, 51а, Пятигорск, Ставропольский край (7 филиалов)"
 coords: [44.045751, 43.0642527]
