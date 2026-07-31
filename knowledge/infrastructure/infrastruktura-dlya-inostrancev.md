@@ -3,7 +3,7 @@ id: infrastruktura-dlya-inostrancev
 title: "Инфраструктура для иностранцев: обмен валюты, SIM-карты, банкоматы"
 category: infrastructure
 subcategory: foreign-visitor-services
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "по всему Пятигорску, конкретные точки в теле карточки"
 coords: null

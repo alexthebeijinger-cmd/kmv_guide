@@ -3,7 +3,7 @@ id: medicina-apteki
 title: "Медицина и аптеки: клиники, круглосуточные аптеки"
 category: infrastructure
 subcategory: medical
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "по всему Пятигорску, конкретные точки в теле карточки"
 coords: null

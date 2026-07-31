@@ -3,7 +3,7 @@ id: pogoda-i-sezonnost
 title: "Погода и сезонность: что взять с собой, когда ехать"
 category: infrastructure
 subcategory: weather-seasonality
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: null
 coords: null

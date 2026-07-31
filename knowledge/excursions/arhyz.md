@@ -3,7 +3,7 @@ id: arhyz
 title: "Экскурсия в Архыз из Пятигорска"
 category: excursions
 subcategory: outside-kmv
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "Архыз, Карачаево-Черкесия (выезд из Пятигорска)"
 coords: [43.5630635, 41.2803847]

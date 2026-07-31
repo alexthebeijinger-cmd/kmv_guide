@@ -3,7 +3,7 @@ id: prielbrusye
 title: "Экскурсия в Приэльбрусье (гора Эльбрус) из Пятигорска"
 category: excursions
 subcategory: outside-kmv
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "Приэльбрусье, Кабардино-Балкария (выезд из Пятигорска)"
 coords: [43.3712621, 42.571353]

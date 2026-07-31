@@ -3,7 +3,7 @@ id: meropriyatiya-i-sobytiya
 title: "Мероприятия и события: фестивали, ярмарки, День города"
 category: infrastructure
 subcategory: events
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: null
 coords: null

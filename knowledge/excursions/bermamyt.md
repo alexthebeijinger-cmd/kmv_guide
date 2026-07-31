@@ -3,7 +3,7 @@ id: bermamyt
 title: "Джип-тур на плато Бермамыт из Пятигорска"
 category: excursions
 subcategory: outside-kmv
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "плато Бермамыт, Карачаево-Черкесия (выезд из Пятигорска, через гору Баран)"
 coords: [43.595978, 42.496066]

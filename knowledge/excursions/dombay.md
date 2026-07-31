@@ -3,7 +3,7 @@ id: dombay
 title: "Экскурсия в Домбай из Пятигорска"
 category: excursions
 subcategory: outside-kmv
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "Домбай, Карачаево-Черкесия (выезд из Пятигорска, через Теберду)"
 coords: [43.290498, 41.6269204]

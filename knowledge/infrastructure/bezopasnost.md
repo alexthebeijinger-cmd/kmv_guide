@@ -3,7 +3,7 @@ id: bezopasnost
 title: "Безопасность: экстренные номера, травмпункт"
 category: infrastructure
 subcategory: safety
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "Первая Бульварная ул., 37А, Пятигорск (травмпункт)"
 coords: [44.0530101, 43.0593256]

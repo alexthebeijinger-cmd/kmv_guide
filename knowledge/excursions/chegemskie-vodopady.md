@@ -3,7 +3,7 @@ id: chegemskie-vodopady
 title: "Экскурсия на Чегемские водопады из Пятигорска"
 category: excursions
 subcategory: outside-kmv
-status: draft
+status: ready   # справочный контент, не venue-карточка — цены/сезонность/партнёр-туроператор остаются открытыми, не блокируют публикацию
 partner_status: none
 address: "Чегемское ущелье, Кабардино-Балкария (выезд из Пятигорска)"
 coords: [43.4037982, 43.09155]
