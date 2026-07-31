@@ -3,7 +3,7 @@ id: moy-sam
 title: "Мой Сам — автомойка, Первая Бульварная, 22"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Первая Бульварная улица, 22, Пятигорск, Ставропольский край"
 coords: [44.0530476, 43.0640029]

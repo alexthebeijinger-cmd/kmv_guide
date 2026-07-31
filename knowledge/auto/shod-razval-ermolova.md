@@ -3,7 +3,7 @@ id: shod-razval-ermolova
 title: "Автосервис (сход-развал) — ул. Ермолова, 22/1"
 category: auto
 subcategory: service
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Ермолова, 22/1, Пятигорск, Ставропольский край"
 coords: [44.0457333, 43.0152716]

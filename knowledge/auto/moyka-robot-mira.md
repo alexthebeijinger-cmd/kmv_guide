@@ -3,7 +3,7 @@ id: moyka-robot-mira
 title: "МойкаРобот — автомойка-автомат, ул. Мира, 155а"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Мира, 155а, Пятигорск, Ставропольский край"
 coords: [44.0403517, 43.0441023]

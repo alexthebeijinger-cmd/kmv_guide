@@ -3,7 +3,7 @@ id: proshine-deteyling
 title: "ProShine — автомойка и детейлинг, Краснознамённая ул., 5"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Краснознамённая улица, 5, Пятигорск, Ставропольский край"
 coords: [44.0487043, 43.0379639]

@@ -3,7 +3,7 @@ id: robot-moyka-ermolova
 title: "Робот-мойка — ул. Ермолова, 14в/1"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "ул. Ермолова, 14в/1, Пятигорск, Ставропольский край"
 coords: [44.0520023, 42.9951192]

@@ -3,7 +3,7 @@ id: cordiant-shinny-centr
 title: "Cordiant — шинно-сервисный центр, Кисловодское шоссе, 23"
 category: auto
 subcategory: service
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Кисловодское шоссе, 23 ст1, Пятигорск, Ставропольский край (2 филиала)"
 coords: [44.052799, 42.9925796]

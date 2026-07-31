@@ -3,7 +3,7 @@ id: slk-deteyling
 title: "SLK — детейлинг-центр, Теплосерная ул., 146"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Теплосерная улица, 146 ст1, Пятигорск, Ставропольский край"
 coords: [44.0372392, 43.0962131]

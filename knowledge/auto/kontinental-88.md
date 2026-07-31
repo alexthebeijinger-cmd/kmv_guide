@@ -3,7 +3,7 @@ id: kontinental-88
 title: "Континенталь 88 — автомойка и центр детейлинга, Теплосерная ул., 152"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Теплосерная улица, 152, Пятигорск, Ставропольский край"
 coords: [44.0340472, 43.0804413]

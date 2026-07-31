@@ -3,7 +3,7 @@ id: romanov-autolab
 title: "Romanov AutoLab — детейлинг-студия, Лермонтовский разъезд, 43"
 category: auto
 subcategory: carwash
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Лермонтовский разъезд, 43, Пятигорск, Ставропольский край"
 coords: [44.0640128, 43.0606355]

@@ -3,7 +3,7 @@ id: pit-stop-shinomontazh
 title: "Пит Стоп — шиномонтажная мастерская, Первомайская, 83"
 category: auto
 subcategory: service
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал)
 partner_status: none
 address: "Первомайская улица, 83 ст2, Пятигорск, Ставропольский край"
 coords: [44.029523, 43.0584246]
