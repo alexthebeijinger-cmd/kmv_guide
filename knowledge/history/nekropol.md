@@ -3,7 +3,7 @@ id: nekropol
 title: "Некрополь Пятигорска"
 category: history
 subcategory: cemetery
-status: needs_review
+status: ready
 partner_status: none
 address: "ул. Пастухова, 1, Пятигорск"   # из открытых источников (tonkosti.ru, Яндекс.Карты), на месте не сверено
 coords: [44.0452437, 43.0751314]

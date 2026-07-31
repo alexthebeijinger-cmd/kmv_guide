@@ -3,7 +3,7 @@ id: sfera-vkusa
 title: "«Сфера Вкуса» / Столовая «Элиса» — сеть столовых (Кисловодское шоссе)"
 category: restaurants
 subcategory: stolovaya
-status: needs_review
+status: ready
 partner_status: none
 address: "Кисловодское шоссе, 48, Пятигорск, Ставропольский край"
 coords: [44.0606674, 42.9509813]

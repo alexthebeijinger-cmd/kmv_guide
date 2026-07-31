@@ -3,7 +3,7 @@ id: polyana-pesen
 title: "Поляна Песен — видовая площадка и открытая эстрада на склоне Машука"
 category: nature
 subcategory: vidovaya-ploshchadka
-status: needs_review
+status: ready
 partner_status: none
 address: "Склон горы Машук, район Места дуэли М. Ю. Лермонтова, Пятигорск, Ставропольский край"
 coords: [44.056388, 43.076554]   # GPS с места, подтверждено Alex, 29.07.2026 (исключение из общего правила SCHEMA.md — точка без нормального почтового адреса, только GPS даёт навигацию)

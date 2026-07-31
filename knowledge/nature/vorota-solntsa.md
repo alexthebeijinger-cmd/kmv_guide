@@ -3,7 +3,7 @@ id: vorota-solntsa
 title: "Ворота Солнца (Ворота Любви) — каменная арка на склоне Машука"
 category: nature
 subcategory: vidovaya-ploshchadka
-status: needs_review
+status: ready
 partner_status: none
 address: "склон горы Машук, у Домика лесника, по пути к вершине, Пятигорск, Ставропольский край"
 coords: [44.050232, 43.077566]   # GPS с места, подтверждено Alex, 29.07.2026 — то же исключение из SCHEMA.md, что и для polyana-pesen.md (нет обычного адреса)

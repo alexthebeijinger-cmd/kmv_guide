@@ -3,7 +3,7 @@ id: khachapuri-i-karla-marksa
 title: "«Хачапури и…» на Карла Маркса — кафе грузинской кухни"
 category: restaurants
 subcategory: cafe
-status: needs_review
+status: ready
 partner_status: none
 address: "ул. Карла Маркса, 4, Пятигорск, Ставропольский край"
 coords: [44.0378913, 43.0797662]

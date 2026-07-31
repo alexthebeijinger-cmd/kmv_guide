@@ -3,7 +3,7 @@ id: avtomag-ermolova
 title: "«Автомагия» — автомагазин и автосервис (Ермолова, 12а)"
 category: auto
 subcategory: auto-parts-service
-status: needs_review
+status: ready
 partner_status: none
 address: "ул. Ермолова, 12а, строение 3, Пятигорск"   # уточнено Alex, 30.07.2026
 coords: [44.0432676, 43.0280648]

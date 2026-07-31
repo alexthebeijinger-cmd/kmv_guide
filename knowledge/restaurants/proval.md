@@ -3,7 +3,7 @@ id: proval-cafe
 title: "Кафе «Провал»"
 category: restaurants
 subcategory: cafe
-status: needs_review
+status: ready
 partner_status: none
 address: "бул. Гагарина, 30, Пятигорск"
 coords: [44.0432669, 43.0970155]

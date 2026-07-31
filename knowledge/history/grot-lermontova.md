@@ -3,7 +3,7 @@ id: grot-lermontova
 title: "Грот Лермонтова / Академическая галерея"
 category: history
 subcategory: landmark
-status: needs_review
+status: ready
 partner_status: none
 address: "пр. Кирова, 1а, Пятигорск (Академическая галерея)"   # из открытых источников (Википедия, 2ГИС), на месте не сверено
 coords: [44.0398134, 43.0880234]
