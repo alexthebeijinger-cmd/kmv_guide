@@ -36,7 +36,17 @@ COLLECTION_NAME = "kmv_guide_tourist"
 MODEL_NAME = "intfloat/multilingual-e5-large"  # 1024-dim, RU+ZH — см. docstring выше
 
 # Файлы-справочники, не являющиеся карточками объектов — не грузим как точки.
-SKIP_FILES = {"SCHEMA.md", "README.md", "OPEN-QUESTIONS.md"}
+SKIP_FILES = {
+    "SCHEMA.md",
+    "README.md",
+    "OPEN-QUESTIONS.md",
+    "CHECKLIST-24.md",
+    "hmelnoy-voprosy-personalu.md",  # чек-лист вопросов персоналу для hmelnoy-restoran.md, не карточка объекта
+}
+
+# Обязательные поля фронтматтера для карточки, готовой к загрузке (см. knowledge/SCHEMA.md).
+REQUIRED_FIELDS = ("id", "title", "category", "status")
+VALID_CATEGORIES = {"history", "restaurants", "transport", "nature", "services", "auto"}
 
 
 def load_env(env_path: Path) -> dict:
@@ -94,19 +104,41 @@ def main():
 
     ready_posts = []
     skipped_not_ready = []
+    invalid_posts = []
+    id_to_paths = {}
     for path in iter_markdown_files():
         post = frontmatter.load(path)
         status = post.get("status")
         if status != "ready":
             skipped_not_ready.append((path.relative_to(REPO_ROOT), status))
             continue
-        if not post.get("id"):
-            print(f"ПРОПУСК (нет id во фронтматтере): {path}", file=sys.stderr)
+
+        missing = [f for f in REQUIRED_FIELDS if not post.get(f)]
+        if missing:
+            invalid_posts.append((path.relative_to(REPO_ROOT), f"нет обязательных полей: {', '.join(missing)}"))
             continue
+
+        category = post.get("category")
+        if category not in VALID_CATEGORIES:
+            invalid_posts.append((path.relative_to(REPO_ROOT), f"недопустимая category: {category!r}"))
+            continue
+
+        pid = post.get("id")
+        if pid in id_to_paths:
+            invalid_posts.append(
+                (path.relative_to(REPO_ROOT), f"дубль id={pid!r} (уже используется в {id_to_paths[pid]})")
+            )
+            continue
+        id_to_paths[pid] = path.relative_to(REPO_ROOT)
+
         ready_posts.append((path, post))
 
     print(f"Найдено файлов со status: ready — {len(ready_posts)}")
     print(f"Пропущено (не ready) — {len(skipped_not_ready)}")
+    if invalid_posts:
+        print(f"ОШИБКИ ВАЛИДАЦИИ (не грузятся, проверь перед публикацией) — {len(invalid_posts)}", file=sys.stderr)
+        for path, reason in invalid_posts:
+            print(f"  {path}: {reason}", file=sys.stderr)
     if args.dry_run:
         print("\n--- dry-run: будут загружены ---")
         for path, post in ready_posts:
