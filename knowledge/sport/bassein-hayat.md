@@ -3,7 +3,7 @@ id: bassein-hayat
 title: "Бассейн отеля «Хаят»"
 category: sport
 subcategory: pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Бештаугорское ш., 161, Пятигорск"
 coords: [44.0630158, 43.0034396]

@@ -3,7 +3,7 @@ id: bassein-viktoriya
 title: "Бассейн «Виктория»"
 category: sport
 subcategory: pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Широкая ул., 106, Пятигорск"
 coords: [44.056894, 43.045097]

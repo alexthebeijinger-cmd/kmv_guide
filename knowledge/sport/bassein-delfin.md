@@ -3,7 +3,7 @@ id: bassein-delfin
 title: "Бассейн «Дельфин»"
 category: sport
 subcategory: pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Подстанционная ул., 23, Пятигорск"
 coords: [44.0756285, 43.0877918]

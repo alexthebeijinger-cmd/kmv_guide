@@ -3,7 +3,7 @@ id: rayder-veloprokat
 title: "«Райдер» — веломагазин и прокат велосипедов"
 category: sport
 subcategory: bike-rental
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "просп. 40 лет Октября, 91А, Пятигорск"
 coords: [44.037407, 43.0648404]

@@ -3,7 +3,7 @@ id: bassein-garmoniya
 title: "Бассейн «Гармония»"
 category: sport
 subcategory: pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Украинская ул., 57, Пятигорск"
 coords: [44.0495529, 43.039468]

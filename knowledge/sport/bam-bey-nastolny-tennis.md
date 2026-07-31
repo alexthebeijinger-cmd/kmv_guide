@@ -3,7 +3,7 @@ id: bam-bey-nastolny-tennis
 title: "«Бам-Бей» — настольный теннис"
 category: sport
 subcategory: table-tennis
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "ул. Ермолова, 26А, этаж 2, Пятигорск"
 coords: [44.046463, 43.0137339]

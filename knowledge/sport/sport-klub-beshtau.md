@@ -3,7 +3,7 @@ id: sport-klub-beshtau
 title: "Спорт-Клуб-Бештау"
 category: sport
 subcategory: fitness-pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Первая Бульварная ул., 17, этаж 2, Пятигорск"
 coords: [44.053091, 43.0593042]

@@ -3,7 +3,7 @@ id: bassein-mashuk-vos
 title: "Санаторий «Машук ВОС» — бассейн"
 category: sport
 subcategory: pool
-status: draft
+status: ready   # двойное подтверждение Яндекс.Карты + 2ГИС, 31.07.2026 (адрес совпал); телефон/цена/расписание остаются открытыми, не блокируют
 partner_status: none
 address: "Иноземцевское ш., 7, Пятигорск"
 coords: [44.063825, 43.070835]
