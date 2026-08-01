@@ -23,7 +23,7 @@
 
 По запросу Alex («памятники и природа не могут быть без фотографий, поищи в сети, с перекрёстными перепроверками») — 64 карточки (история/природа/парки/религия) без фото. Метод: Wikipedia (инфобокс) → Wikimedia Commons (категории по зданиям/объектам Пятигорска) → визуальная сверка найденного фото с текстовым описанием карточки (и, где возможно, с точным адресом из названия файла на Commons) перед принятием.
 
-**Готово (9 карточек, фото добавлены, закоммичено):**
+**Готово (26 карточек, фото добавлены, закоммичено):**
 
 1. `history/pamyatnik-lermontovu.md` — Wikipedia, история создания + фото.
 2. `history/grot-lermontova.md` — Wikipedia, фото грота.
@@ -34,13 +34,36 @@
 7. `history/vtoroafonsky-monastyr.md` — Wikimedia Commons, файл с полным названием монастыря.
 8. `religion/spasskiy-kafedralny-sobor.md` — Wikimedia Commons, файл с адресом и датами реконструкции.
 9. `religion/sobor-arhangela-mihaila.md` — Wikimedia Commons, файл с точным адресом.
+10. `religion/lazarevskaya-tserkov.md` — Wikimedia Commons, файл с точным адресом.
+11. `history/kraevedcheskiy-muzey.md` — Wikipedia (инфобокс), интерьер музея.
+12. `history/mesto-dueli-lermontova.md` — Wikipedia (инфобокс).
+13. `history/nekropol.md` — Wikimedia Commons, файл с точным адресом.
+14. `history/vechny-ogon.md` — Wikimedia Commons, подпись автора совпадает с названием мемориала.
+15. `parks/park-tsvetnik.md` — Wikimedia Commons.
+16. `history/grot-diany.md` — Wikimedia Commons.
+17. `history/eolova-arfa-besedka.md` — Wikimedia Commons, описание файла дословно совпадает с текстом карточки.
+18. `parks/emanuelevsky-park.md` — Wikimedia Commons, автор подписал «вид на Емануелевский парк».
+19. `parks/park-kirova.md` — Wikimedia Commons (общий вид парка, не аттракционов — см. пометку в карточке).
+20. `history/mashuk-kanatka.md` — Wikimedia Commons.
+21. `nature/beshtau-vershina.md` — Wikipedia (инфобокс).
+22. `history/kisa-vorobyaninov-skulptura.md` — Wikimedia Commons, категория «Statues in Pyatigorsk».
+23. `nature/orel-skulptura-mashuk.md` — Wikimedia Commons, закрыт заодно вопрос про материал (дерево).
+24. `history/ermolov-pamyatnik.md` — Wikimedia Commons, категория подтверждает адрес (ул. Лермонтова).
+25. `nature/orel-terzayuschy-zmeyu.md` — Wikimedia Commons (Wikidata: 1903 год, объект культурного наследия — закрыт вопрос про год).
+26. `history/lenin-pamyatnik-vechny-ogon.md` — Wikimedia Commons (Wikidata: скульптор Алексей Портянко, открыт 12.11.1971 — закрыт вопрос про автора/год).
 
 **Не найдено фото (пропущено):**
 
 - `religion/sobornaya-mechet.md` — ни на Wikipedia, ни на Wikimedia Commons ничего не найдено по запросам «мечеть Пятигорск» / «Соборная мечеть Пятигорск».
 - `history/georgiya-pobedonostsa-tserkov.md` (малый храм на территории Второафонского монастыря) — отдельного фото не нашлось, есть только общие фото монастыря.
 
-**Прервано технически (инструмент браузера временно недоступен):** дальше в очереди — `religion/lazarevskaya-tserkov.md` (найден подходящий файл на Commons, точный адрес совпадает, скачивание не завершено), парки (`park-tsvetnik.md`, `emanuelevsky-park.md`, `park-kirova.md`), музеи (`kraevedcheskiy-muzey.md`), лермонтовская тема (`mesto-dueli-lermontova.md`, `nekropol.md`, `vechny-ogon.md`), скульптуры парка «Цветник» (Киса Воробьянинов, Остап Бендер, Максим Максимыч, Печорин, Отдыхающая, Княжна Мери, Бэла и др. — вероятно, без своих статей/категорий на Wikimedia, потребуется общий фотопоиск), природные объекты (Бештау, Орлиные скалы, Ленинские скалы, гора Пост и др.). Продолжить при следующей возможности.
+**Осталось без фото (~38 карточек) — не начато в этом заходе:**
+
+- Литературные скульптуры парка «Цветник»/окрестностей: Остап Бендер, Максим Максимыч, Печорин, Отдыхающая, Княжна Мери, Бэла — Wikimedia Commons по ним не проверялся построчно (кроме Кисы Воробьянинова — готово), вероятно потребуется общий фотопоиск, не факт что найдётся.
+- Природные объекты: Орлиные скалы, Ленинские скалы, гора Пост, Лохматая гора, Малый Бештау, вершина Михайловская, надпись «Пятигорск», Новопятигорское озеро, Новопятigorsky курган и др.
+- Остальные религиозные/исторические/парковые карточки со статусом `draft`/без фото, не перечисленные выше поимённо — см. полный список через `grep -l "photos: \[\]"` по `knowledge/history/`, `knowledge/nature/`, `knowledge/parks/`, `knowledge/religion/`.
+
+Продолжить тем же методом (Wikipedia инфобокс → Wikimedia Commons по категориям зданий/памятников Пятигорска → визуальная сверка) при следующей возможности.
 
 ---
 
