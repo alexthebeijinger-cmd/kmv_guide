@@ -11,8 +11,8 @@ phone: null
 hours: "09:00–20:00, выходной — понедельник"
 price: "бесплатно (вход); экскурсии от 300 ₽"
 tags: [history, mvp-7, "12-stuljev"]
-photos: []
-updated: "2026-07"
+photos: [photos/proval-wiki.jpg]   # фото из интернета (Wikimedia Commons), не с места — см. источники
+updated: "2026-07-31"
 ---
 
 # Провал
@@ -47,4 +47,4 @@ updated: "2026-07"
 - Литературная отсылка к «12 стульям» — сильный крючок для рассказа, разбавляет более серьёзный лермонтовский пласт истории города.
 - Рядом — одноимённое кафе «Провал» (см. `knowledge/restaurants/proval.md`), можно рекомендовать как логичное продолжение визита.
 
-Источники: [putevka.com](https://www.putevka.com/kavminvody/pyatigorsk/sight/ozero-proval)
+Источники: [putevka.com](https://www.putevka.com/kavminvody/pyatigorsk/sight/ozero-proval). **Фото (31.07.2026):** `photos/proval-wiki.jpg` — Wikimedia Commons, файл «Провал (озеро).jpg» (описание — «Улица Провал: бульвар Гагарина, Пятигорск» — совпадает с адресом карточки). Визуально сверено — бирюзовое подземное озеро в скальной пещере с мозаичной иконой — совпадает с описанием.
