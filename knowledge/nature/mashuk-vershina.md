@@ -3,7 +3,7 @@ id: mashuk-vershina
 title: "Вершина горы Машук — смотровая, телебашня, панорама КМВ"
 category: nature
 subcategory: smotrovaya-ploshchadka
-status: needs_review
+status: ready   # все открытые вопросы закрыты 01.08.2026 (Alex, полевой визит)
 partner_status: none
 address: "Вершина горы Машук, Пятигорск, Ставропольский край (верхняя станция канатной дороги; нижняя станция — бул. Гагарина, 2)"
 coords: [44.049440, 43.089117]   # уточнено 01.08.2026 (Alex, с места), заменяет прежнюю оценку
