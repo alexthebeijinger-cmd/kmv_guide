@@ -11,7 +11,7 @@ phone: null
 hours: "круглосуточно, свободный доступ"
 price: "бесплатно"
 tags: [priroda, vidovaya-ploshchadka, mashuk, panorama, beshtau, elbrus, progulka, foto, foto-zona, besplatno, kruglosutochno, peshkom, na-mashine, na-velosipede, terrenkur, svadba, romantika, zakat, rassvet, s-detmi, legenda, sovetskoe-nasledie]
-photos: [photos/vorota-solntsa-arka-beshtau.jpeg, photos/vorota-solntsa-sklon-mashuk.jpeg, photos/vorota-solntsa-panorama-goroda.jpeg, photos/vorota-solntsa-doroga-k-vershine-1.jpeg, photos/vorota-solntsa-doroga-k-vershine-2.jpeg, photos/vorota-solntsa-mural-sovetskiy.jpeg]
+photos: [photos/vorota-solntsa-arka-beshtau.jpeg, photos/vorota-solntsa-sklon-mashuk.jpeg, photos/vorota-solntsa-panorama-goroda.jpeg, photos/vorota-solntsa-doroga-k-vershine-1.jpeg, photos/vorota-solntsa-doroga-k-vershine-2.jpeg, photos/vorota-solntsa-mural-sovetskiy.jpeg, photos/vorota-solntsa-deti-na-arke.jpeg, photos/vorota-solntsa-sklon-s-televyshkoy.jpeg, photos/vorota-solntsa-panorama-ravnina.jpeg]
 updated: "2026-08-01"
 ---
 
@@ -51,6 +51,9 @@ updated: "2026-08-01"
 - **Сквозь арку:** с одного ракурса в проёме арки виден городской пейзаж и невысокая отдельно стоящая гора-лакколит на горизонте — иллюстрация к описанию «в просвете ворот видно Эльбрус» (в конкретный день съёмки видимость не позволяла разглядеть сам Эльбрус, но принцип кадра тот же).
 - **Дорога от Ворот Солнца к вершине Машука (визит 01.08.2026):** асфальтированная дорога через лес — подтверждает ранее зафиксированное «доехать можно на машине/велосипеде». Вдоль дороги — деревянные скамьи и урны, покрытие местами потрескавшееся, но проезжее. Хорошо затенена деревьями — комфортна и для пешей прогулки, не только для проезда.
 - **Мурал на подпорной стене вдоль дороги (найдено 01.08.2026):** барельефное изображение советского солдата с красной звездой и пламенем на фоне — похоже на военно-мемориальную композицию (возможно, часть оформления террасы/подпорной стены советского времени). Сильно закрашено современными граффити (теги, надписи типа «Jesus», «More»), само рельефное изображение частично сохранилось. Не идентифицировано — ни авторство, ни назначение, ни официальный статус не известны.
+- **Дети на арке (доп. фото с места):** несколько детей забираются по камням прямо на верхнюю перемычку арки — подтверждает, что конструкция физически открыта и используется как лазалка, а не только как фотозона издалека.
+- **Склон с телевышкой на заднем плане:** от арки открывается вид на лесистый склон Машука, на гребне видна решётчатая телебашня — подтверждает положение объекта на пути к вершине, недалеко от неё по прямой видимости.
+- **Широкая панорама с площадки:** вид на равнину КМВ с отдельно стоящей горой-лакколитом на горизонте (силуэт похож на Юцу/Джуцу), город внизу — иллюстрирует круговой обзор с площадки помимо вида на Бештау.
 
 ## Для контента гида
 
