@@ -10,8 +10,10 @@
   STORY: человек между процедурами спрашивает, что делать сегодня; получает порядок дня по
   времени и места с часами, адресом и телефоном; доводит заявку на столик до отправки партнёру.
   FIRST VIEWPORT: полноширинная латунная стойка под шапкой, на двух крючках висит большая
-  эмалевая табличка с вопросом «Какие у нас планы на сегодня?» и четырьмя ответами; ниже по камню
-  четыре быстрых захода; внизу кран-ввод и честная строка про границу офлайна.
+  эмалевая табличка, и на ней — единственный объект экрана: широкое поле свободного вопроса
+  с двумя латунными кранами (голос и отправка). Плиток, семплов и образцов вопросов нет
+  намеренно: человек в Пятигорске хочет то, что хочет, а не то, что мы угадали и вынесли
+  на плитку (решение зафиксировано в CLAUDE.md).
   FORM: мир «Бювет» — третий в собственном списке, назначен жребием (ключ b7b6e4dd); выдачи
   висят на вертикальной оси (композиция Б), первый экран — большая табличка (композиция В).
 -->
@@ -21,17 +23,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Гид по Пятигорску: маршрут на сегодня, места с часами и телефоном, заявка на столик.">
 <meta name="theme-color" content="#E4E3DB">
+<meta name="color-scheme" content="light">
 <title>КМВ Гид · Пятигорск</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%2317403F'/%3E%3Cpath d='M10 8h7M12.5 8v8M12.5 16h5a4 4 0 0 1 4 4v2' stroke='%23D8B064' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='21.5' cy='26' r='2.6' fill='%232E9B8F'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="app.css">
 </head>
-<body>
+<body class="is-start">
 
 <div class="stage">
 
   <header class="top">
     <div class="brand">
-      <span class="wordmark" data-i18n="wordmark">КМВ Гид · Пятигорск</span>
+      <h1 class="wordmark" data-i18n="wordmark">КМВ Гид · Пятигорск</h1>
       <span class="proto" data-i18n="proto" title="Гид ещё не подключён к настоящей базе знаний">Прототип</span>
     </div>
     <div class="lang" role="group" aria-label="Язык / 语言">
@@ -44,24 +47,58 @@
     <span data-i18n="offlineBanner">Связи нет. Гид отвечать не может, но адреса, телефоны и часы уже загруженных мест на экране остаются.</span>
   </p>
 
-  <main class="feed" id="feed"></main>
+  <!-- Стойка. Длиннее, чем то, что на ней висит, поэтому идёт во всю ширину экрана. -->
+  <hr class="rail-full" aria-hidden="true">
 
+  <main class="feed" id="feed" aria-live="polite" aria-relevant="additions text"></main>
+
+  <!-- Кран. На первом экране это большая эмалевая табличка на крючках и единственный
+       объект экрана; после первого вопроса та же разметка становится узкой строкой ввода
+       внизу. Один элемент в двух состояниях, а не два поля. -->
   <div class="tap">
-    <form class="tap__row" id="askForm" autocomplete="off">
-      <input class="tap__input" id="askInput" type="text" data-i18n-placeholder="askPlaceholder"
-             placeholder="Спросите гида" aria-label="Спросите гида">
-      <button class="tap__go" type="submit" data-i18n-label="send" aria-label="Отправить">
-        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor"
-             stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M5 4h6M8 4v7"/>
-          <path d="M8 11h4a3 3 0 0 1 3 3v1.5"/>
-          <path d="M15 21c-1.3 0-2.2-1-2.2-2.2 0-1.3 2.2-3.3 2.2-3.3s2.2 2 2.2 3.3C17.2 20 16.3 21 15 21z"/>
-        </svg>
-      </button>
-    </form>
+    <div class="tap__hooks" aria-hidden="true"><span></span><span></span></div>
+
+    <div class="tap__plate">
+      <span class="plate__label tap__label" data-i18n="openingLabel">Сегодня · Пятигорск</span>
+      <p class="tap__q" data-i18n="opening">Какие сегодня планы?</p>
+
+      <form class="tap__row" id="askForm" autocomplete="off">
+        <input class="tap__input" id="askInput" type="text" data-i18n-placeholder="askPlaceholder"
+               placeholder="Спросите гида" aria-label="Спросите гида"
+               enterkeyhint="send" autocapitalize="sentences">
+        <button class="tap__mic" id="askMic" type="button" hidden
+                data-i18n-label="voice" aria-label="Спросить голосом" aria-pressed="false">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="9" y="3" width="6" height="11" rx="3"/>
+            <path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/>
+            <path d="M12 18v3"/>
+          </svg>
+        </button>
+        <button class="tap__go" id="askGo" type="submit" data-i18n-label="send" aria-label="Отправить">
+          <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor"
+               stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 4h6M8 4v7"/>
+            <path d="M8 11h4a3 3 0 0 1 3 3v1.5"/>
+            <path d="M15 21c-1.3 0-2.2-1-2.2-2.2 0-1.3 2.2-3.3 2.2-3.3s2.2 2 2.2 3.3C17.2 20 16.3 21 15 21z"/>
+          </svg>
+        </button>
+      </form>
+
+      <p class="tap__hint" id="askHint" role="status"></p>
+
+      <!-- Единственная подсказка на первом экране. Это не образцы вопросов и не плитки:
+           одна фраза называет оба способа ввода и области, в которых гид что-то знает.
+           Без неё пустое поле не читается людьми, которые видят такой интерфейс впервые. -->
+      <p class="tap__how" data-i18n="howto">Напишите вопрос своими словами или нажмите микрофон и скажите. Гид знает места, часы работы, дорогу и столики в ресторанах.</p>
+    </div>
+
     <p class="honest" data-i18n-html="honest">
       <b>Гид отвечает только со связью.</b> Сохранённый маршрут, адреса и телефоны останутся с вами и без интернета.
     </p>
+
+    <!-- Граница перевода проговаривается на первом экране, а не после первого разочарования. -->
+    <p class="langnote" id="langNote"></p>
   </div>
 
 </div>
