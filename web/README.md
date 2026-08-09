@@ -5,10 +5,15 @@
 Из корня репозитория:
 
 ```
-cd web && python3 -m http.server 8812
+pip install -r scripts/requirements.txt
+uvicorn server:app --reload --port 8812
 ```
 
-и открыть <http://127.0.0.1:8812/>. Просто открыть `index.html` двойным кликом нельзя — браузер не даст прочитать `data/places.json` с диска.
+и открыть <http://127.0.0.1:8812/>. Так запускаются и интерфейс, и RAG-бэкенд.
+Файл `.env` в корне обязателен: в нём `QDRANT_URL`, `QDRANT_API_KEY`,
+`DEEPSEEK_API_KEY`. Шаблон без ключей — `.env.example`. Просто открыть `index.html`
+двойным кликом нельзя — браузер не даст прочитать `data/places.json` с диска, а чат
+не найдёт API.
 
 ## Как добавить место
 

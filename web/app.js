@@ -1235,7 +1235,33 @@ function ask(query) {
   });
   if (hit) return respond(() => turn(tf('placeLead', { title: esc(hit.title) }), [placePlate(hit)]));
 
-  respond(() => answerUnknown(query));
+  askRag(query);
+}
+
+// Браузер никогда не видит ключи Qdrant и DeepSeek: он отправляет вопрос только
+// собственному бэкенду. Тот возвращает текст и id карточек, а сами карточки по-прежнему
+// строятся из локального проверенного data/places.json.
+async function askRag(query) {
+  if (!navigator.onLine) return answerOffline();
+  const pending = thinking();
+  try {
+    const res = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: query, lang: state.lang }),
+    });
+    if (!res.ok) throw new Error(`API ${res.status}`);
+    const data = await res.json();
+    const places = (data.place_ids || [])
+      .map((id) => state.places.find((place) => place.id === id))
+      .filter(Boolean)
+      .map((place) => placePlate(place));
+    pending.remove();
+    turn(esc(data.answer).replace(/\n/g, '<br>'), places);
+  } catch {
+    pending.remove();
+    answerUnknown(query);
+  }
 }
 
 // ── Язык ─────────────────────────────────────────────────────────────

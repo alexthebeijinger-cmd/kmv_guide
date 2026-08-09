@@ -1,3 +1,5 @@
 sentence-transformers
 python-frontmatter
 qdrant-client
+fastapi
+uvicorn[standard]
