@@ -19,6 +19,8 @@ from pydantic import BaseModel, Field
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
+from privacy_gateway import scrub
+
 
 ROOT = Path(__file__).resolve().parent
 WEB_DIR = ROOT / "web"
@@ -177,9 +179,32 @@ def health() -> dict:
     return {"ok": all(os.getenv(name) for name in ("QDRANT_URL", "QDRANT_API_KEY", "DEEPSEEK_API_KEY"))}
 
 
+BLOCKED_ANSWER = {
+    "ru": "Не могу обработать этот запрос — он содержит слишком много персональных "
+          "или медицинских данных для передачи во внешний сервис. Опишите вопрос "
+          "без ФИО, телефона, адреса или подробных медицинских показателей.",
+    "zh": "无法处理该请求——其中包含过多个人或医疗信息，不能发送给外部服务。"
+          "请不要包含姓名、电话、地址或详细的医学指标，重新描述您的问题。",
+}
+
+
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(data: ChatRequest) -> ChatResponse:
     question = data.question.strip()
+
+    # Шлюз обезличивания перед любым обращением к зарубежному LLM (DeepSeek),
+    # см. CLAUDE.md, «Архитектура обработки персональных и медицинских данных».
+    # Сейчас server.py ничего не сохраняет (нет БД на HandyHost), поэтому
+    # findings пока только считаются для наблюдаемости, без сырых значений
+    # в логах песочницы — само хранение сырых находок появится вместе с БД.
+    scrub_result = scrub(question)
+    if scrub_result.blocked:
+        return ChatResponse(answer=BLOCKED_ANSWER.get(data.lang, BLOCKED_ANSWER["ru"]), place_ids=[])
+    if scrub_result.has_pii:
+        print(f"[privacy_gateway] обезличено находок: {len(scrub_result.findings)} "
+              f"({', '.join(sorted({f.kind for f in scrub_result.findings}))})")
+    question = scrub_result.clean_text
+
     try:
         hits = search(question)
         answer = ask_deepseek(question, data.lang, hits)
