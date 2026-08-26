@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO_DIR="/Users/alexey/Desktop/KMV Guide/kmv_guide"
+REPO_DIR="/Users/alexey/Desktop/Balneo/code/kmv-guide"
 cd "$REPO_DIR" || { echo "Не могу найти папку репозитория"; read -p "Нажми Enter..."; exit 1; }
 
 echo "Синхронизирую: $REPO_DIR"
