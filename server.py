@@ -19,6 +19,9 @@ from pydantic import BaseModel, Field
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
+from datetime import datetime, timezone
+
+from dialogs import store_dialog
 from privacy_gateway import scrub
 
 
@@ -71,6 +74,10 @@ def embedder() -> SentenceTransformer:
 class ChatRequest(BaseModel):
     question: str = Field(min_length=1, max_length=MAX_QUERY_LENGTH)
     lang: str = Field(default="ru", pattern="^(ru|zh)$")
+    # Опционально: стабильный идентификатор сессии/устройства от фронтенда,
+    # нужен только для истории диалогов (dialogs.py). Полноценной
+    # аутентификации в продукте пока нет — это временная заглушка до неё.
+    session_id: str | None = Field(default=None, max_length=200)
 
 
 class ChatResponse(BaseModel):
@@ -191,18 +198,32 @@ BLOCKED_ANSWER = {
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(data: ChatRequest) -> ChatResponse:
     question = data.question.strip()
+    # Пока в продукте нет аутентификации — используем переданный клиентом
+    # session_id как есть, либо помечаем как "anonymous" (история диалогов
+    # тогда просто не разделяется по пользователям). См. dialogs.py.
+    session_id = (data.session_id or "anonymous").strip() or "anonymous"
+    recorded_at = datetime.now(timezone.utc).isoformat()
 
     # Шлюз обезличивания перед любым обращением к зарубежному LLM (DeepSeek),
     # см. CLAUDE.md, «Архитектура обработки персональных и медицинских данных».
-    # Сейчас server.py ничего не сохраняет (нет БД на HandyHost), поэтому
-    # findings пока только считаются для наблюдаемости, без сырых значений
-    # в логах песочницы — само хранение сырых находок появится вместе с БД.
     scrub_result = scrub(question)
+    findings_kinds = sorted({f.kind for f in scrub_result.findings})
     if scrub_result.blocked:
-        return ChatResponse(answer=BLOCKED_ANSWER.get(data.lang, BLOCKED_ANSWER["ru"]), place_ids=[])
+        answer = BLOCKED_ANSWER.get(data.lang, BLOCKED_ANSWER["ru"])
+        store_dialog(
+            session_id=session_id,
+            lang=data.lang,
+            clean_question="[ЗАБЛОКИРОВАНО: высокий риск реидентификации]",
+            answer=answer,
+            place_ids=[],
+            scrub_findings=findings_kinds,
+            blocked=True,
+            recorded_at=recorded_at,
+        )
+        return ChatResponse(answer=answer, place_ids=[])
     if scrub_result.has_pii:
         print(f"[privacy_gateway] обезличено находок: {len(scrub_result.findings)} "
-              f"({', '.join(sorted({f.kind for f in scrub_result.findings}))})")
+              f"({', '.join(findings_kinds)})")
     question = scrub_result.clean_text
 
     try:
@@ -215,6 +236,19 @@ def chat(data: ChatRequest) -> ChatResponse:
 
     # Карточки отображает фронтенд из локально собранных проверенных данных.
     place_ids = [str(hit["id"]) for hit in hits[:3] if hit.get("id")]
+
+    # Сохраняем УЖЕ обезличенный вопрос (question после scrub выше), не сырой
+    # текст пользователя — см. docstring dialogs.py.
+    store_dialog(
+        session_id=session_id,
+        lang=data.lang,
+        clean_question=question,
+        answer=answer,
+        place_ids=place_ids,
+        scrub_findings=findings_kinds,
+        blocked=False,
+        recorded_at=recorded_at,
+    )
     return ChatResponse(answer=answer, place_ids=place_ids)
 
 
